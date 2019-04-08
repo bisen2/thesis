@@ -1,0 +1,227 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Geffroy2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6578eb843ab9c8f506899e8f3a900d6a}{%
+           family={Geffroy},
+           familyi={G\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=daeab44361e0647a4752689767f74295}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           prefix={le},
+           prefixi={l\bibinitperiod}}}%
+        {{hash=f4266dd2ac7935a115c8837523ddc035}{%
+           family={Prat},
+           familyi={P\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{55ad23448af48ee44c46e5b40717c709}
+      \strng{fullhash}{55ad23448af48ee44c46e5b40717c709}
+      \strng{bibnamehash}{55ad23448af48ee44c46e5b40717c709}
+      \strng{authorbibnamehash}{55ad23448af48ee44c46e5b40717c709}
+      \strng{authornamehash}{55ad23448af48ee44c46e5b40717c709}
+      \strng{authorfullhash}{55ad23448af48ee44c46e5b40717c709}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Polymer International}
+      \field{number}{6}
+      \field{title}{Organic light-emitting diode ({OLED}) technology: materials, devices and display technologies}
+      \field{volume}{55}
+      \field{year}{2006}
+      \field{pages}{572\bibrangedash 582}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/pi.1974
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/pi.1974
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/pi.1974
+      \endverb
+    \endentry
+    \entry{Lim2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=54a96fa36c01e58fb97af42e776bf445}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Seong-Rin},
+           giveni={S\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=e38246ad6517023dbcfc785883406d94}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fe97a7ce7cc306bd9f982610d1c8e835}{%
+           family={Ogunseitan},
+           familyi={O\bibinitperiod},
+           given={Oladele\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=680e35a8dda752d18fdd1a49ca08f193}{%
+           family={Schoenung},
+           familyi={S\bibinitperiod},
+           given={Julie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society ({ACS})}%
+      }
+      \strng{namehash}{b8fc171b93f44c9d7de848261a2b2417}
+      \strng{fullhash}{1ede5efb0e141d5ce7b959a1de60156f}
+      \strng{bibnamehash}{b8fc171b93f44c9d7de848261a2b2417}
+      \strng{authorbibnamehash}{b8fc171b93f44c9d7de848261a2b2417}
+      \strng{authornamehash}{b8fc171b93f44c9d7de848261a2b2417}
+      \strng{authorfullhash}{1ede5efb0e141d5ce7b959a1de60156f}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Science {\&} Technology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Potential Environmental Impacts of Light-Emitting Diodes ({LEDs}): Metallic Resources, Toxicity, and Hazardous Waste Classification}
+      \field{volume}{45}
+      \field{year}{2011}
+      \field{pages}{320\bibrangedash 327}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/es101052q
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/es101052q
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/es101052q
+      \endverb
+    \endentry
+    \entry{Schulz1954}{article}{}
+      \name{author}{2}{}{%
+        {{hash=230d11ddaf986c6c3eda08a99e2eccbd}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3815207a3d20de532aae5e41b2ce26d0}{%
+           family={Tangherlini},
+           familyi={T\bibinitperiod},
+           given={F.\bibnamedelimi R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Optical Society}%
+      }
+      \strng{namehash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \strng{fullhash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \strng{bibnamehash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \strng{authorbibnamehash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \strng{authornamehash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \strng{authorfullhash}{7ab89eb9fc2cd388dd081a39f6e86115}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Optical Society of America}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Optical Constants of Silver, Gold, Copper, and Aluminum {II} The Index of Refraction n}
+      \field{volume}{44}
+      \field{year}{1954}
+      \field{pages}{362}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/josa.44.000362
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1364/josa.44.000362
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1364/josa.44.000362
+      \endverb
+    \endentry
+    \entry{Stavrinou1999}{article}{}
+      \name{author}{4}{}{%
+        {{hash=320b2ff34ad0573db5354f02c32a1c3c}{%
+           family={Stavrinou},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=06863a36c1919e80a759b1ef21c556cc}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c568c2ca000adadb9f0f4459b5bcdc04}{%
+           family={Parry},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6a881a4aedb2b67bb06237c440ef6dc5}{%
+           family={Button},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AIP} Publishing}%
+      }
+      \strng{namehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{fullhash}{bbb644a87f1269b44170ab8d3c855437}
+      \strng{bibnamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authorbibnamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authornamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authorfullhash}{bbb644a87f1269b44170ab8d3c855437}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{Angular spectrum of visible resonant cavity light-emitting diodes}
+      \field{volume}{86}
+      \field{year}{1999}
+      \field{pages}{3475\bibrangedash 3477}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.371233
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.371233
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.371233
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
