@@ -1,4 +1,4 @@
-# Ben's Senior Thesis
+# Ben's Honors Thesis
 
 This repo contains three folders:
 1. paper: This is a directory that holds the actual thesis document. It includes tex files and the compiled pdf
