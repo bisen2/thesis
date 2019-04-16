@@ -1,6 +1,8 @@
-\documentclass[12pt]{report}
+\documentclass{report}
 \author{Benjamin Isenhart}
 \usepackage[width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{setspace}
+\doublespacing
 \usepackage{graphicx}
 \graphicspath{./images/}
 \usepackage{fancyhdr}
@@ -10,25 +12,24 @@
 
 \begin{titlepage}
 	\begin{center}
-		\vspace*{3cm}
+		\vspace*{2cm}
 		\Huge
 		\textbf{Thesis Title}\\
-		\vspace{2.5cm}
+		\vspace{1.5cm}
 		\LARGE
 		An Honors Thesis Presented\\
 		by\\
 		Benjamin Isenhart\\
 		to\\
 		The Faculty of the University of Vermont\\
-		\vspace{1cm}
+		\vspace{0.5cm}
 		Spring 2019
-		\vspace{3.5cm}
+		\vspace{3cm}
 	\end{center}
 	\begin{flushright}
 		\Large
-		Defense Date: TBD\\
+		Defense Date: 2nd May, 2019\\
 		Thesis Examination Committee:\\
-		\vspace{1cm}
 		Matthew S. White, Ph.D., Advisor\\
 		Frederic Sansoz, Ph.D., Chairperson\\
 		Madalina Furis, Ph.D.\\
@@ -43,15 +44,42 @@
 
 \chapter{Experimental Methods}
 
-\section{Device Fabrication}
+    \section{Device Fabrication}
 
-\section{Emission Spectroscopy}
+    \section{Emission Spectroscopy}
 
-\section{Current-Voltage Characterization}
+    \section{Current-Voltage Characterization}
 
 \chapter{Results}
 
-\chapter{Discussion}
+    \section{Single Cavity Devices}
+    
+        In all single cavity devices, a 100nm bottom electrode was used with a 30nm top electrode to produce a resonant cavity of the desired size. The thickness of the organics was changed in order to maintain a 20nm Alq$_3$ layer between the contact layers. In all devices except those described in (REFERENCE SECTION 3.1.3), a silver electrode with a MoO$_3$ cap was used as the bottom electrode and an aluminum electrode with a LiF cap was used for the top.
+    
+        \subsection{Peak Emission Wavelength}
+            An analysis of the peak wavelength of emission for each cavity thickness reveals a very strong correlation. In particular, a linear relationship is observed between the peak wavelength and the resonance cavity thickness (REFERENCE FIGURE). This is logical as the wavelength of a resonant mode should be proportional to the width of the resonance cavity, with the constant of proportionality being the index of refraction for light in the organic materials. We do see some variation from the linear model, which is to be expected the overall index of refraction in the cavity is not a constant across devices. In particular, by not keeping the ratio of each organics layer the same, we inadvertantly modified the index of refraction slightly, leading to small variations from the linear model.
+            
+            The linear model, however, is only valid for the regime of a single resonant mode. We see a break in the linearity of peak emission wavelength and cavity thicknesses at the points of transition from one half-integer resonance to the next. we have measured the transition from $\lambda/2$ to $\lambda$ and from $\lambda$ to $3\lambda/2$ at approximately 200nm and 310nm, respectively. This is as expected, as the resonant wavelength doubles when shifting from one half-integer mode to the next. We also notice that when the linear relationship picks up again on the other side of a transition to the next mode, the slope is decreased by a factor of roughly two, indicating that the constant of proportionality discussed above is not just dependent on the index of refraction, but also which resonant mode is being described (JUSTIFICATION?).
+        
+        \subsection{Band Narrowing}
+            Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness (REFERENCE FIGURE). Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE?). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
+
+            We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device makes the cause of this very clear (REFERENCE IMAGE). The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
+        
+        \subsection{Effect of Top Electrode Material}
+            As fabrication of the multi-cavity devices requires both regular and inverted devices, two devices were fabricated in identical conditions except that they were inverted with respect to each other. Each has a 100nm bottom electrode, 1nm capping layer, followed by a 40/26/40 set of organics layers, with a 1nm cap and 30nm top electrode, as was done with the multicavity devices. In comparing the emission spectra of the two devices, we see a massive difference. In particular, the aluminum topped device has a much narrower emission spectrum than the sliver topped device. The contrast in emission spectra is due to the differing optical properties of silver and aluminum. While both have similar transmittivities, aluminum absorbs a significant amount more than silver, and reflects significantly less (CITE). In the aluminum topped device, almost all light that travels towards the bottom electrode is reflected by the 100nm silver electrode, strongly pinning that light to the resonant wavelength, which can then be partially transmitted through the top aluminum electrode. In the case of the silver topped device, however, the lower reflectivity on the bottom electrode gives a weaker resonant mode to be transmitted through the top electrode.
+
+    \section{Multi-cavity Devices}
+        In all multi-cavity devices, a 100nm silver bottom electrode was used, with all subsequent electrodes at a thickness of 30nm. The cavities were created using a 26nm film of the Alq$_3$ emitter with 40nm contact layers on either side. This generates 126nm cavities for all multi-cavity devices.
+    
+        \subsection{Behavior at Large Angles}
+            In the angluar resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts continuously with increasing angle, and the emission splits into two distinctive peaks that seperate as the angle increases.
+    
+        \subsection{Number of Resonant Modes}
+        
+        \subsection{Bandwidth of Resonant Modes}
+
+\chapter{Conclusion}
 
 \appendix
 \chapter{Appendix Title}
