@@ -12,9 +12,9 @@
 
 \begin{titlepage}
 	\begin{center}
-		\vspace*{2cm}
+		\vspace{1cm}
 		\Huge
-		\textbf{Thesis Title}\\
+		\textbf{Precise Control of Organic LED Emission Through Optically Resonant Microcavities}\\
 		\vspace{1.5cm}
 		\LARGE
 		An Honors Thesis Presented\\
@@ -24,19 +24,21 @@
 		The Faculty of the University of Vermont\\
 		\vspace{0.5cm}
 		Spring 2019
-		\vspace{3cm}
+		\vspace{2cm}
 	\end{center}
 	\begin{flushright}
 		\Large
 		Defense Date: 2nd May, 2019\\
 		Thesis Examination Committee:\\
-		Matthew S. White, Ph.D., Advisor\\
+		\vspace{0.5cm}
 		Frederic Sansoz, Ph.D., Chairperson\\
+		Matthew S. White, Ph.D., Advisor\\
 		Madalina Furis, Ph.D.\\
 	\end{flushright}
 \end{titlepage}
 
 \chapter*{Abstract}
+The ability to change the emission spectrum of an LED device has traditionally only been possible through chemical changes to the emissive material or the addition of dopants. Both of these techniques have significant disadvantages due to the limited range of changes possible and the difficulty of precisely controlling these changes. We present a technique of precisely controlling the emission spectrum of a device through device design alone. By placing reflective electrodes on either side of an LED device, we generate an optically resonant microcavity whose properties impact the emission profile of the device. The direct relationship between the cavity thickness and the peak emission wavelength allows for tuning of the peak emission to within the resolution of our ability to deposit films. We additionally explore the impacts of stacking multiple microcavities on top of one another in the emission profile.
 
 \tableofcontents
 
@@ -44,11 +46,14 @@
 
 \chapter{Experimental Methods}
 
+    \section{OLED Materials}
+    An tris-(8-hydroxyquinoline)aluminum (Alq$_3$) emissive material, along with bathophenanthroline (BPhen) as an electron transport material and N,N′-Di(1-naphthyl)-N,N′-diphenyl-(1,1′-biphenyl)-4,4′-diamine (NPB) as a hole transport material(CHEMICAL NAMES?), were chosen due to their reported use in a green OLED devices by (CITATION). Silver and molibdinum oxide (Ag/MoO$_3$) were used for the hole selective electrode, while aluminum and lithium flouride (Al/LiF) were used for the electron selective electrode. The organics were purchased from Sigma-Aldrich and purified through sublimation. (METAL VENDOR?)
+
     \section{Device Fabrication}
+    Devices were fabricated through sequential physical vapor deposition on oxidized silicon substrates. Silicon substrates were oxidized at 900$^o$C for 9 hours in order to get a thick and resistive layer of silicon dioxide to deposit devices onto. All device materials were deposited through evaporation at a pressure of 10$^{-7}$ torr onto a rotating substrate clamp. (EVAPORATION RATES?)
 
     \section{Emission Spectroscopy}
-
-    \section{Current-Voltage Characterization}
+    Emission spectra were collected in a nitrogen glovebox with $<0.01$ppm O$_2$ and $<0.05$ppm H$_2$O to avoid degradation of devices. A fiber-optic passthrough to the glovebox was connected to an OceanOptics spectrometer (NAME?). The emission of the devices was passed through an iris to minimize the collection angle, then passed through a parabolic mirror to collimate the emission, before being passed into the fiber.
 
 \chapter{Results}
 
@@ -62,7 +67,7 @@
             The linear model, however, is only valid for the regime of a single resonant mode. We see a break in the linearity of peak emission wavelength and cavity thicknesses at the points of transition from one half-integer resonance to the next. we have measured the transition from $\lambda/2$ to $\lambda$ and from $\lambda$ to $3\lambda/2$ at approximately 200nm and 310nm, respectively. This is as expected, as the resonant wavelength doubles when shifting from one half-integer mode to the next. We also notice that when the linear relationship picks up again on the other side of a transition to the next mode, the slope is decreased by a factor of roughly two, indicating that the constant of proportionality discussed above is not just dependent on the index of refraction, but also which resonant mode is being described (JUSTIFICATION?).
         
         \subsection{Band Narrowing}
-            Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness (REFERENCE FIGURE). Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE?). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
+            Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness (REFERENCE FIGURE). Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
 
             We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device makes the cause of this very clear (REFERENCE IMAGE). The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
         
@@ -73,15 +78,19 @@
         In all multi-cavity devices, a 100nm silver bottom electrode was used, with all subsequent electrodes at a thickness of 30nm. The cavities were created using a 26nm film of the Alq$_3$ emitter with 40nm contact layers on either side. This generates 126nm cavities for all multi-cavity devices.
     
         \subsection{Behavior at Large Angles}
-		In the angular resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts continuously with increasing angle, and the emission splits into two distinctive peaks that separate as the angle increases. This is as would be predicted by the theory of wave propagation in a waveguide. The modal splitting is the separation of the transverse electric (TE) and transverse magnetic (TM) modes splitting off from the superposition of them at $\theta=0$, called the transverse electric and magnetic mode (TEM). (INCLUDE SOME MATH?)
+		In the angular resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts continuously with increasing angle, and the emission splits into two distinctive peaks that separate as the angle increases. This is as would be predicted by the theory of wave propagation in a waveguide. The modal splitting is the separation of the transverse electric (TE) and transverse magnetic (TM) modes splitting off from the superposition of them at $\theta=0$, called the transverse electric and magnetic (TEM) mode. (INCLUDE SOME MATH?)
     
         \subsection{Number of Resonant Modes}
+        We additinally see that a more complex modal structure can be generated with multi-cavity devices, even in forward emission. We see the first transition from one to two forward emission peaks in the transition from N=2 to N=3. The N=3 device has a broad and intense emission peak at approximately 510nm with a narrower and weaker peak around 525nm (SHORTER LAMBDA BAND IS ACTUALLY NARROWER). In the N=4 device, we also see two forward emission peaks, but the one around 510nm is significantly narrower with a broader peak occuring around 540nm. In the transition from N=4 to N=5, we see almost perfect preservation of the modal structure of N=4, with an additional peak superimposed between the two existing peaks. Although the cause of these additional peaks is not abundantly clear, the existence of two modes, one narrower than the other is logical. For example, in the N=4 device, the narrow peak could be generated by the three bottom devices resonating together, while the broad peak is generated from resonances off of both the inner and outer interfaces of the top metal electrode. However, more experimentation would be necessary to confirm this theory.
         
         \subsection{Bandwidth of Resonant Modes}
+        By fitting with Lorentzian functions, the full width at half max (FWHM) can be found for each emission peak. (TABLE OF THESE?). By analyzing the FWHM for the emission peaks, we find a definite correlation that the emission bands narrow significantly as the number of cavities increases. This is expected for modes that form a resonant standing wave across several cavities for reasons similar to those presented in (CITE SECTION 3.1.2). As the number of cavities increases, the uncertainty in the position of a photon in the resonant mode increases, allowing for a more precise determination of its momentum, giving a narrower emission peak.
 
 \chapter{Conclusion}
 
+    In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an LED device, as well as generating more complex emission profiles. This technique utilizes device design and processing alone, rather than chemical changes to the actual materials. The linearity between peak wavelength and cavity thickness as well as bandwidth and cavity thickness in single cavity devices allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided you use a emissive material with a sufficiently wide broadband emission spectrum. However, more experimentation is needed before the same level of control can be exerted over the multi-peak emission profiles of devices with more than one cavity. In particular, a study of multi-cavity emission with varying thickness could yield a better understanding of the significance of the various emission peaks. Additionally, a polarization analysis of the emission profiles at large angles could contribute to a better understanding of the resonant cavity behavior.
+
 \appendix
-\chapter{Appendix Title}
+\chapter{Component Spectra of Angular Resolved Spectroscopy}
 
 \end{document}

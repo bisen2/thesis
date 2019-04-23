@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.3)  15 APR 2019 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.20)  22 APR 2019 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,40 +223,98 @@ Chapter 1.
 
 ]
 Chapter 2.
+
+! Package inputenc Error: Unicode character ′ (U+2032)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ... an electron transport material and N,N′
+                                                  -Di(1-naphthyl)-N,N′-dip...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ′ (U+2032)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ... material and N,N′-Di(1-naphthyl)-N,N′
+                                                  -diphenyl-(1,1′-biphenyl...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ′ (U+2032)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ...′-Di(1-naphthyl)-N,N′-diphenyl-(1,1′
+                                                  -biphenyl)-4,4′-diamine ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ′ (U+2032)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ...)-N,N′-diphenyl-(1,1′-biphenyl)-4,4′
+                                                  -diamine (NPB) as a hole t...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 [4
 
-]
+] [5]
 Chapter 3.
-[5
+[6
 
-] [6] [7]
+] [7] [8] [9]
 Chapter 4.
-[8
+[10
 
 ]
 Appendix A.
-[9
+[11
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2098 strings out of 492616
- 29454 string characters out of 6135178
+ 2099 strings out of 492616
+ 29460 string characters out of 6135177
  103047 words of memory out of 5000000
- 6004 multiletter control sequences out of 15000+600000
+ 6005 multiletter control sequences out of 15000+600000
  7022 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,1273b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on thesis.pdf (10 pages, 117363 bytes).
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (12 pages, 139989 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

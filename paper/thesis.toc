@@ -1,16 +1,16 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}% 
 \contentsline {chapter}{\numberline {2}Experimental Methods}{4}% 
-\contentsline {section}{\numberline {2.1}Device Fabrication}{4}% 
-\contentsline {section}{\numberline {2.2}Emission Spectroscopy}{4}% 
-\contentsline {section}{\numberline {2.3}Current-Voltage Characterization}{4}% 
-\contentsline {chapter}{\numberline {3}Results}{5}% 
-\contentsline {section}{\numberline {3.1}Single Cavity Devices}{5}% 
-\contentsline {subsection}{\numberline {3.1.1}Peak Emission Wavelength}{5}% 
-\contentsline {subsection}{\numberline {3.1.2}Band Narrowing}{6}% 
-\contentsline {subsection}{\numberline {3.1.3}Effect of Top Electrode Material}{6}% 
-\contentsline {section}{\numberline {3.2}Multi-cavity Devices}{7}% 
-\contentsline {subsection}{\numberline {3.2.1}Behavior at Large Angles}{7}% 
-\contentsline {subsection}{\numberline {3.2.2}Number of Resonant Modes}{7}% 
-\contentsline {subsection}{\numberline {3.2.3}Bandwidth of Resonant Modes}{7}% 
-\contentsline {chapter}{\numberline {4}Conclusion}{8}% 
-\contentsline {chapter}{\numberline {A}Appendix Title}{9}% 
+\contentsline {section}{\numberline {2.1}OLED Materials}{4}% 
+\contentsline {section}{\numberline {2.2}Device Fabrication}{4}% 
+\contentsline {section}{\numberline {2.3}Emission Spectroscopy}{4}% 
+\contentsline {chapter}{\numberline {3}Results}{6}% 
+\contentsline {section}{\numberline {3.1}Single Cavity Devices}{6}% 
+\contentsline {subsection}{\numberline {3.1.1}Peak Emission Wavelength}{6}% 
+\contentsline {subsection}{\numberline {3.1.2}Band Narrowing}{7}% 
+\contentsline {subsection}{\numberline {3.1.3}Effect of Top Electrode Material}{7}% 
+\contentsline {section}{\numberline {3.2}Multi-cavity Devices}{8}% 
+\contentsline {subsection}{\numberline {3.2.1}Behavior at Large Angles}{8}% 
+\contentsline {subsection}{\numberline {3.2.2}Number of Resonant Modes}{8}% 
+\contentsline {subsection}{\numberline {3.2.3}Bandwidth of Resonant Modes}{9}% 
+\contentsline {chapter}{\numberline {4}Conclusion}{10}% 
+\contentsline {chapter}{\numberline {A}Component Spectra of Angular Resolved Spectroscopy}{11}% 
