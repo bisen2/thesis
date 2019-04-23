@@ -4,7 +4,7 @@
 \usepackage{setspace}
 \doublespacing
 \usepackage{graphicx}
-\graphicspath{./images/}
+\usepackage{wrapfig}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -65,7 +65,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \begin{figure}
             \centering
             \vspace{-1cm}
-            \includegraphics[width=0.99\textwidth]{images/n1_results.pdf}
+            \includegraphics[width=0.99\textwidth]{images/n1_overview.pdf}
             \vspace{-1cm}
             \caption{Emission characteristics of single cavity devices:\newline (a): Emission spectrum as a function of cavity thickness\newline (b): Peak wavelength as a function of cavity thickness,\newline (c): Quality factor as a function of cavity thickness}
         \end{figure}
@@ -82,6 +82,13 @@ The ability to change the emission spectrum of an LED device has traditionally o
             We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device makes the cause of this very clear (REFERENCE IMAGE). The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
         
         \subsection{Effect of Top Electrode Material}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.45\textwidth]{images/n1_ag_top_heatmap.png}
+                \includegraphics[width=0.45\textwidth]{images/n1_al_top_heatmap.png}
+                \caption{Angular resolved emission profiles of single cavity devices.}
+            \end{figure}
+
             As fabrication of the multi-cavity devices requires both regular and inverted devices, two devices were fabricated in identical conditions except that they were inverted with respect to each other. Each has a 100nm bottom electrode, 1nm capping layer, followed by a 40/26/40 set of organics layers, with a 1nm cap and 30nm top electrode, as was done with the multicavity devices. In comparing the emission spectra of the two devices, we see a massive difference. In particular, the aluminum topped device has a much narrower emission spectrum than the sliver topped device. The contrast in emission spectra is due to the differing optical properties of silver and aluminum. While both have similar transmittivities, aluminum absorbs a significant amount more than silver, and reflects significantly less (CITE). In the aluminum topped device, almost all light that travels towards the bottom electrode is reflected by the 100nm silver electrode, strongly pinning that light to the resonant wavelength, which can then be partially transmitted through the top aluminum electrode. In the case of the silver topped device, however, the lower reflectivity on the bottom electrode gives a weaker resonant mode to be transmitted through the top electrode.
 
     \section{Multi-cavity Devices}
@@ -89,11 +96,31 @@ The ability to change the emission spectrum of an LED device has traditionally o
     
         \subsection{Behavior at Large Angles}
 		In the angular resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts continuously with increasing angle, and the emission splits into two distinctive peaks that separate as the angle increases. This is as would be predicted by the theory of wave propagation in a waveguide. The modal splitting is the separation of the transverse electric (TE) and transverse magnetic (TM) modes splitting off from the superposition of them at $\theta=0$, called the transverse electric and magnetic (TEM) mode. (INCLUDE SOME MATH?)
+		\begin{figure}
+            \centering
+            \includegraphics[width=0.45\textwidth]{images/n2_heatmap.png}
+            \includegraphics[width=0.45\textwidth]{images/n3_heatmap.png}
+            \newline
+            \includegraphics[width=0.45\textwidth]{images/n4_heatmap.png}
+            \includegraphics[width=0.45\textwidth]{images/n5_heatmap.png}
+            \caption{Angular resolved emission profiles of multi-cavity devices}
+		\end{figure}
+
     
         \subsection{Number of Resonant Modes}
         We additinally see that a more complex modal structure can be generated with multi-cavity devices, even in forward emission. We see the first transition from one to two forward emission peaks in the transition from N=2 to N=3. The N=3 device has a broad and intense emission peak at approximately 510nm with a narrower and weaker peak around 525nm (SHORTER LAMBDA BAND IS ACTUALLY NARROWER). In the N=4 device, we also see two forward emission peaks, but the one around 510nm is significantly narrower with a broader peak occuring around 540nm. In the transition from N=4 to N=5, we see almost perfect preservation of the modal structure of N=4, with an additional peak superimposed between the two existing peaks. Although the cause of these additional peaks is not abundantly clear, the existence of two modes, one narrower than the other is logical. For example, in the N=4 device, the narrow peak could be generated by the three bottom devices resonating together, while the broad peak is generated from resonances off of both the inner and outer interfaces of the top metal electrode. However, more experimentation would be necessary to confirm this theory.
         
         \subsection{Bandwidth of Resonant Modes}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.45\textwidth]{images/n2_fe.png}
+            \includegraphics[width=0.45\textwidth]{images/n3_fe.png}
+            \newline
+            \includegraphics[width=0.45\textwidth]{images/n4_fe.png}
+            \includegraphics[width=0.45\textwidth]{images/n5_fe.png}
+            \caption{Forward emission spectra of multi-cavity devices.}
+        \end{figure}
+
         By fitting with Lorentzian functions, the full width at half max (FWHM) can be found for each emission peak. (TABLE OF THESE?). By analyzing the FWHM for the emission peaks, we find a definite correlation that the emission bands narrow significantly as the number of cavities increases. This is expected for modes that form a resonant standing wave across several cavities for reasons similar to those presented in (CITE SECTION 3.1.2). As the number of cavities increases, the uncertainty in the position of a photon in the resonant mode increases, allowing for a more precise determination of its momentum, giving a narrower emission peak.
 
 \chapter{Conclusion}
@@ -102,5 +129,17 @@ The ability to change the emission spectrum of an LED device has traditionally o
 
 \appendix
 \chapter{Component Spectra of Angular Resolved Spectroscopy}
+
+    \section*{Single Cavity Aluminum Topped Device}
+    
+    \section*{Single Cavity Silver Topped Device}
+    
+    \section*{Two Cavity Device}
+    
+    \section*{Three Cavity Device}
+    
+    \section*{Four Cavity Device}
+    
+    \section*{Five Cavity Device}
 
 \end{document}

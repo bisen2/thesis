@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.1.3}Effect of Top Electrode Material}{8}% 
 \contentsline {section}{\numberline {3.2}Multi-cavity Devices}{9}% 
 \contentsline {subsection}{\numberline {3.2.1}Behavior at Large Angles}{9}% 
-\contentsline {subsection}{\numberline {3.2.2}Number of Resonant Modes}{9}% 
-\contentsline {subsection}{\numberline {3.2.3}Bandwidth of Resonant Modes}{10}% 
-\contentsline {chapter}{\numberline {4}Conclusion}{11}% 
-\contentsline {chapter}{\numberline {A}Component Spectra of Angular Resolved Spectroscopy}{12}% 
+\contentsline {subsection}{\numberline {3.2.2}Number of Resonant Modes}{10}% 
+\contentsline {subsection}{\numberline {3.2.3}Bandwidth of Resonant Modes}{11}% 
+\contentsline {chapter}{\numberline {4}Conclusion}{12}% 
+\contentsline {chapter}{\numberline {A}Component Spectra of Angular Resolved Spectroscopy}{13}% 
