@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.22)  24 APR 2019 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.22)  24 APR 2019 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -231,6 +231,15 @@ Chapter 1.
 
 ]
 Chapter 2.
+<images/schematic.png, id=20, 394.23285pt x 603.81586pt>
+File: images/schematic.png Graphic file (type png)
+<use images/schematic.png>
+Package pdftex.def Info: images/schematic.png  used on input line 54.
+(pdftex.def)             Requested size: 149.37956pt x 228.79825pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 55.
 
 ! Package inputenc Error: Unicode character ′ (U+2032)
 (inputenc)                not set up for use with LaTeX.
@@ -239,7 +248,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ... an electron transport material and N,N′
+l.58 ... an electron transport material and N,N′
                                                   -Di(1-naphthyl)-N,N′-dip...
 
 You may provide a definition with
@@ -253,7 +262,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ... material and N,N′-Di(1-naphthyl)-N,N′
+l.58 ... material and N,N′-Di(1-naphthyl)-N,N′
                                                   -diphenyl-(1,1′-biphenyl...
 
 You may provide a definition with
@@ -267,7 +276,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...′-Di(1-naphthyl)-N,N′-diphenyl-(1,1′
+l.58 ...′-Di(1-naphthyl)-N,N′-diphenyl-(1,1′
                                                   -biphenyl)-4,4′-diamine ...
 
 You may provide a definition with
@@ -281,121 +290,158 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...)-N,N′-diphenyl-(1,1′-biphenyl)-4,4′
+l.58 ...)-N,N′-diphenyl-(1,1′-biphenyl)-4,4′
                                                   -diamine (NPB) as a hole t...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<images/schematic.png, id=20, 394.23285pt x 603.81586pt>
-File: images/schematic.png Graphic file (type png)
-<use images/schematic.png>
-Package pdftex.def Info: images/schematic.png  used on input line 56.
-(pdftex.def)             Requested size: 192.0548pt x 294.15866pt.
+
+Underfull \hbox (badness 3460) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 N,N-diphenyl-(1,1-biphenyl)-4,4-diamine (NPB) as a
+ []
+
 [4
 
-] [5 <./images/schematic.png>]
+ <./images/schematic.png>] [5]
 Chapter 3.
-<images/n1_peak_emission.png, id=34, 174.8934pt x 179.9523pt>
+<images/n1_peak_emission.png, id=36, 174.8934pt x 179.9523pt>
 File: images/n1_peak_emission.png Graphic file (type png)
 <use images/n1_peak_emission.png>
-Package pdftex.def Info: images/n1_peak_emission.png  used on input line 83.
+Package pdftex.def Info: images/n1_peak_emission.png  used on input line 86.
 (pdftex.def)             Requested size: 170.71393pt x 175.65184pt.
 [6
 
  <./images/n1_peak_emission.png>]
-<images/n1_quality_factor.png, id=40, 180.675pt x 177.0615pt>
+<images/n1_quality_factor.png, id=42, 180.675pt x 177.0615pt>
 File: images/n1_quality_factor.png Graphic file (type png)
 <use images/n1_quality_factor.png>
-Package pdftex.def Info: images/n1_quality_factor.png  used on input line 94.
+Package pdftex.def Info: images/n1_quality_factor.png  used on input line 97.
 (pdftex.def)             Requested size: 170.71393pt x 167.29965pt.
  [7 <./images/n1_quality_factor.png>]
-<images/n1_ag_top_heatmap.png, id=45, 481.8pt x 481.8pt>
+<images/n1_ag_top_heatmap.png, id=47, 481.8pt x 481.8pt>
 File: images/n1_ag_top_heatmap.png Graphic file (type png)
 <use images/n1_ag_top_heatmap.png>
-Package pdftex.def Info: images/n1_ag_top_heatmap.png  used on input line 105.
+Package pdftex.def Info: images/n1_ag_top_heatmap.png  used on input line 109.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n1_al_top_heatmap.png, id=46, 481.8pt x 481.8pt>
+<images/n1_al_top_heatmap.png, id=48, 481.8pt x 481.8pt>
 File: images/n1_al_top_heatmap.png Graphic file (type png)
 <use images/n1_al_top_heatmap.png>
-Package pdftex.def Info: images/n1_al_top_heatmap.png  used on input line 106.
+Package pdftex.def Info: images/n1_al_top_heatmap.png  used on input line 111.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n2_heatmap.png, id=47, 361.35pt x 361.35pt>
+<images/n2_heatmap.png, id=49, 361.35pt x 361.35pt>
 File: images/n2_heatmap.png Graphic file (type png)
 <use images/n2_heatmap.png>
-Package pdftex.def Info: images/n2_heatmap.png  used on input line 116.
+Package pdftex.def Info: images/n2_heatmap.png  used on input line 122.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n3_heatmap.png, id=48, 481.8pt x 481.8pt>
+<images/n3_heatmap.png, id=50, 481.8pt x 481.8pt>
 File: images/n3_heatmap.png Graphic file (type png)
 <use images/n3_heatmap.png>
-Package pdftex.def Info: images/n3_heatmap.png  used on input line 117.
+Package pdftex.def Info: images/n3_heatmap.png  used on input line 124.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n4_heatmap.png, id=49, 481.8pt x 481.8pt>
+<images/n4_heatmap.png, id=51, 481.8pt x 481.8pt>
 File: images/n4_heatmap.png Graphic file (type png)
 <use images/n4_heatmap.png>
-Package pdftex.def Info: images/n4_heatmap.png  used on input line 119.
+Package pdftex.def Info: images/n4_heatmap.png  used on input line 127.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n5_heatmap.png, id=50, 481.8pt x 481.8pt>
+<images/n5_heatmap.png, id=52, 481.8pt x 481.8pt>
 File: images/n5_heatmap.png Graphic file (type png)
 <use images/n5_heatmap.png>
-Package pdftex.def Info: images/n5_heatmap.png  used on input line 120.
+Package pdftex.def Info: images/n5_heatmap.png  used on input line 129.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
 
 [8 <./images/n1_ag_top_heatmap.png (PNG copy)> <./images/n1_al_top_heatmap.png 
 (PNG copy)>] [9 <./images/n2_heatmap.png (PNG copy)> <./images/n3_heatmap.png (
 PNG copy)> <./images/n4_heatmap.png (PNG copy)> <./images/n5_heatmap.png (PNG c
 opy)>]
-<images/n2_fe.png, id=57, 361.35pt x 216.81pt>
+<images/n2_fe.png, id=59, 361.35pt x 216.81pt>
 File: images/n2_fe.png Graphic file (type png)
 <use images/n2_fe.png>
-Package pdftex.def Info: images/n2_fe.png  used on input line 132.
+Package pdftex.def Info: images/n2_fe.png  used on input line 142.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<images/n3_fe.png, id=58, 481.8pt x 289.08pt>
+<images/n3_fe.png, id=60, 481.8pt x 289.08pt>
 File: images/n3_fe.png Graphic file (type png)
 <use images/n3_fe.png>
-Package pdftex.def Info: images/n3_fe.png  used on input line 133.
+Package pdftex.def Info: images/n3_fe.png  used on input line 144.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<images/n4_fe.png, id=59, 481.8pt x 289.08pt>
+<images/n4_fe.png, id=61, 481.8pt x 289.08pt>
 File: images/n4_fe.png Graphic file (type png)
 <use images/n4_fe.png>
-Package pdftex.def Info: images/n4_fe.png  used on input line 135.
+Package pdftex.def Info: images/n4_fe.png  used on input line 147.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
-<images/n5_fe.png, id=60, 481.8pt x 289.08pt>
+<images/n5_fe.png, id=62, 481.8pt x 289.08pt>
 File: images/n5_fe.png Graphic file (type png)
 <use images/n5_fe.png>
-Package pdftex.def Info: images/n5_fe.png  used on input line 136.
+Package pdftex.def Info: images/n5_fe.png  used on input line 149.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
- [10 <./images/n2_fe.png (PNG copy)> <./images/n3_fe.png (PNG copy)> <./images/
-n4_fe.png (PNG copy)> <./images/n5_fe.png (PNG copy)>] [11]
+ [10] [11 <./images/n2_fe.png (PNG copy)> <./images/n3_fe.png (PNG copy)> <./im
+ages/n4_fe.png (PNG copy)> <./images/n5_fe.png (PNG copy)>]
 Chapter 4.
 [12
 
 ]
 Appendix A.
+<images/n1_al_top_waterfall.png, id=73, 429.605pt x 244.915pt>
+File: images/n1_al_top_waterfall.png Graphic file (type png)
+<use images/n1_al_top_waterfall.png>
+Package pdftex.def Info: images/n1_al_top_waterfall.png  used on input line 166
+.
+(pdftex.def)             Requested size: 405.45045pt x 231.14691pt.
+<images/n1_ag_top_waterfall.png, id=74, 429.605pt x 234.8775pt>
+File: images/n1_ag_top_waterfall.png Graphic file (type png)
+<use images/n1_ag_top_waterfall.png>
+Package pdftex.def Info: images/n1_ag_top_waterfall.png  used on input line 171
+.
+(pdftex.def)             Requested size: 405.45045pt x 221.67369pt.
 [13
 
-] (./thesis.aux) ) 
+ <./images/n1_al_top_waterfall.png>]
+<images/n2_waterfall.png, id=79, 361.35pt x 216.81pt>
+File: images/n2_waterfall.png Graphic file (type png)
+<use images/n2_waterfall.png>
+Package pdftex.def Info: images/n2_waterfall.png  used on input line 176.
+(pdftex.def)             Requested size: 405.45045pt x 243.27214pt.
+<images/n3_waterfall.png, id=80, 416.55624pt x 233.87375pt>
+File: images/n3_waterfall.png Graphic file (type png)
+<use images/n3_waterfall.png>
+Package pdftex.def Info: images/n3_waterfall.png  used on input line 181.
+(pdftex.def)             Requested size: 405.45045pt x 227.64948pt.
+ [14 <./images/n1_ag_top_waterfall.png> <./images/n2_waterfall.png (PNG copy)>]
+<images/n4_waterfall.png, id=85, 481.8pt x 289.08pt>
+File: images/n4_waterfall.png Graphic file (type png)
+<use images/n4_waterfall.png>
+Package pdftex.def Info: images/n4_waterfall.png  used on input line 186.
+(pdftex.def)             Requested size: 405.45045pt x 243.27545pt.
+<images/n5_waterfall.png, id=86, 416.55624pt x 242.9075pt>
+File: images/n5_waterfall.png Graphic file (type png)
+<use images/n5_waterfall.png>
+Package pdftex.def Info: images/n5_waterfall.png  used on input line 191.
+(pdftex.def)             Requested size: 405.45045pt x 236.44281pt.
+ [15 <./images/n3_waterfall.png> <./images/n4_waterfall.png (PNG copy)>] [16 <.
+/images/n5_waterfall.png>] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2231 strings out of 492616
- 31817 string characters out of 6135177
+ 2275 strings out of 492616
+ 32787 string characters out of 6135177
  104236 words of memory out of 5000000
- 6118 multiletter control sequences out of 15000+600000
- 7022 words of font info for 25 fonts, out of 8000000 for 9000
+ 6150 multiletter control sequences out of 15000+600000
+ 8845 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,1273b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (14 pages, 850400 bytes).
+ 41i,10n,43p,1273b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (17 pages, 1515302 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

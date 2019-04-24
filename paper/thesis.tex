@@ -48,19 +48,21 @@ The ability to change the emission spectrum of an LED device has traditionally o
 \chapter{Experimental Methods}
 
     \section{OLED Materials}
+    \begin{wrapfigure}{r}{0.4\textwidth}
+        \centering
+        \vspace{-1cm}
+        \includegraphics[width=0.35\textwidth]{images/schematic.png}
+        \caption{\small Schematic of a two-cavity device and the $\lambda/2$ resonant mode.}
+        \vspace{-1cm}
+    \end{wrapfigure}
     An tris-(8-hydroxyquinoline)aluminum (Alq$_3$) emissive material, along with bathophenanthroline (BPhen) as an electron transport material and N,N′-Di(1-naphthyl)-N,N′-diphenyl-(1,1′-biphenyl)-4,4′-diamine (NPB) as a hole transport material(CHEMICAL NAMES?), were chosen due to their reported use in a green OLED devices by (CITATION). Silver and molibdinum oxide (Ag/MoO$_3$) were used for the hole selective electrode, while aluminum and lithium flouride (Al/LiF) were used for the electron selective electrode. The organics were purchased from Sigma-Aldrich and purified through sublimation. (METAL VENDOR?)
 
     \section{Device Fabrication}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.45\textwidth]{images/schematic.png}
-        \caption{Test}
-    \end{figure}
 
     Devices were fabricated through sequential physical vapor deposition on oxidized silicon substrates. Silicon substrates were oxidized at 900$^o$C for 9 hours in order to get a thick and resistive layer of silicon dioxide to deposit devices onto. All device materials were deposited through evaporation at a pressure of 10$^{-7}$ torr onto a rotating substrate clamp. (EVAPORATION RATES?)
 
     \section{Emission Spectroscopy}
-    Emission spectra were collected in a nitrogen glovebox with $<0.01$ppm O$_2$ and $<0.05$ppm H$_2$O to avoid degradation of devices. A fiber-optic passthrough to the glovebox was connected to an OceanOptics spectrometer (NAME?). The emission of the devices was passed through an iris to minimize the collection angle, then passed through a parabolic mirror to collimate the emission, before being passed into the fiber.
+    Emission spectra were collected in a nitrogen glovebox with $<0.01$ppm O$_2$ and $<0.05$ppm H$_2$O to avoid degradation of devices. A fiber-optic passthrough to the glovebox was connected to an OceanOptics spectrometer (NAME?). The emission of the devices was passed through an iris to minimize the collection angle, then passed through a parabolic mirror to collimate the emission, before being passed into the fiber. Devices were mounted on a rotating stage and emission spectra were collected at 2.5 degree intervals from 0 to 90 degrees.
 
 \chapter{Results}
 
@@ -80,8 +82,9 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \subsection{Peak Emission Wavelength}
             \begin{wrapfigure}{r}{0.45\textwidth}
                 \centering
+                \vspace{-1cm}
                 \includegraphics[width=0.4\textwidth]{images/n1_peak_emission.png}
-                \caption{Test}
+                \caption{\small Peak emission wavelength as a function of thickness for various single cavity devices.}
             \end{wrapfigure}
 
             An analysis of the peak wavelength of emission for each cavity thickness reveals a very strong correlation. In particular, a linear relationship is observed between the peak wavelength and the resonance cavity thickness (REFERENCE FIGURE). This is logical as the wavelength of a resonant mode should be proportional to the width of the resonance cavity, with the constant of proportionality being the index of refraction for light in the organic materials. We do see some variation from the linear model, which is to be expected the overall index of refraction in the cavity is not a constant across devices. In particular, by not keeping the ratio of each organics layer the same, we inadvertantly modified the index of refraction slightly, leading to small variations from the linear model.
@@ -92,7 +95,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
             \begin{wrapfigure}{r}{0.45\textwidth}
                 \centering
                 \includegraphics[width=0.4\textwidth]{images/n1_quality_factor.png}
-                \caption{Test}
+                \caption{\small Quality factor as a function of cavity thickness for various single cavity devices.}
             \end{wrapfigure}
 
             Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness (REFERENCE FIGURE). Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
@@ -102,9 +105,11 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \subsection{Effect of Top Electrode Material}
             \begin{figure}[h]
                 \centering
+                (a)
                 \includegraphics[width=0.45\textwidth]{images/n1_ag_top_heatmap.png}
+                (b)
                 \includegraphics[width=0.45\textwidth]{images/n1_al_top_heatmap.png}
-                \caption{Angular resolved emission profiles of single cavity devices.}
+                \caption{\small Angular resolved emission profiles of single cavity devices topped with a silver electrode (a), and with an aluminum electrode (b). The aluminum topped device shows a much narrower emission peak than the silver topped device due to differences in optical properties of the metals.}
             \end{figure}
 
             As fabrication of the multi-cavity devices requires both regular and inverted devices, two devices were fabricated in identical conditions except that they were inverted with respect to each other. Each has a 100nm bottom electrode, 1nm capping layer, followed by a 40/26/40 set of organics layers, with a 1nm cap and 30nm top electrode, as was done with the multicavity devices. In comparing the emission spectra of the two devices, we see a massive difference. In particular, the aluminum topped device has a much narrower emission spectrum than the sliver topped device. The contrast in emission spectra is due to the differing optical properties of silver and aluminum. While both have similar transmittivities, aluminum absorbs a significant amount more than silver, and reflects significantly less (CITE). In the aluminum topped device, almost all light that travels towards the bottom electrode is reflected by the 100nm silver electrode, strongly pinning that light to the resonant wavelength, which can then be partially transmitted through the top aluminum electrode. In the case of the silver topped device, however, the lower reflectivity on the bottom electrode gives a weaker resonant mode to be transmitted through the top electrode.
@@ -113,12 +118,16 @@ The ability to change the emission spectrum of an LED device has traditionally o
         In all multi-cavity devices, a 100nm silver bottom electrode was used, with all subsequent electrodes at a thickness of 30nm. The cavities were created using a 26nm film of the Alq$_3$ emitter with 40nm contact layers on either side. This generates 126nm cavities for all multi-cavity devices.
 		\begin{figure}[h]
             \centering
+            (a)
             \includegraphics[width=0.45\textwidth]{images/n2_heatmap.png}
+            (b)
             \includegraphics[width=0.45\textwidth]{images/n3_heatmap.png}
             \newline
+            (c)
             \includegraphics[width=0.45\textwidth]{images/n4_heatmap.png}
+            (d)
             \includegraphics[width=0.45\textwidth]{images/n5_heatmap.png}
-            \caption{Angular resolved emission profiles of multi-cavity devices}
+            \caption{Angular resolved emission profiles of devices with two (a), three (b), four (c), and five (d) cavities. The modal splitting of TE and TM modes can be seen along with the increase in emission modes at higher numbers of resonant cavities. The change in background intensity in the four cavity device (c) is due to a change in the iris size during data collection to maintain a strong signal.}
 		\end{figure}
     
         \subsection{Behavior at Large Angles}
@@ -127,14 +136,18 @@ The ability to change the emission spectrum of an LED device has traditionally o
     
         \subsection{Number of Resonant Modes}
         We additinally see that a more complex modal structure can be generated with multi-cavity devices, even in forward emission. We see the first transition from one to two forward emission peaks in the transition from N=2 to N=3. The N=3 device has a broad and intense emission peak at approximately 510nm with a narrower and weaker peak around 525nm (SHORTER LAMBDA BAND IS ACTUALLY NARROWER). In the N=4 device, we also see two forward emission peaks, but the one around 510nm is significantly narrower with a broader peak occuring around 540nm. In the transition from N=4 to N=5, we see almost perfect preservation of the modal structure of N=4, with an additional peak superimposed between the two existing peaks. Although the cause of these additional peaks is not abundantly clear, the existence of two modes, one narrower than the other is logical. For example, in the N=4 device, the narrow peak could be generated by the three bottom devices resonating together, while the broad peak is generated from resonances off of both the inner and outer interfaces of the top metal electrode. However, more experimentation would be necessary to confirm this theory.
-        \begin{figure}[h]
+        \begin{figure}
             \centering
+            (a)
             \includegraphics[width=0.45\textwidth]{images/n2_fe.png}
+            (b)
             \includegraphics[width=0.45\textwidth]{images/n3_fe.png}
             \newline
+            (c)
             \includegraphics[width=0.45\textwidth]{images/n4_fe.png}
+            (d)
             \includegraphics[width=0.45\textwidth]{images/n5_fe.png}
-            \caption{Forward emission spectra of multi-cavity devices.}
+            \caption{Forward emission spectra of devices with two (a), three (b), four (c), and five (d) cavities.}
         \end{figure}
         
         \subsection{Bandwidth of Resonant Modes}
@@ -146,18 +159,36 @@ The ability to change the emission spectrum of an LED device has traditionally o
     In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an LED device, as well as generating more complex emission profiles. This technique utilizes device design and processing alone, rather than chemical changes to the actual materials. The linearity between peak wavelength and cavity thickness as well as bandwidth and cavity thickness in single cavity devices allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided you use a emissive material with a sufficiently wide broadband emission spectrum. However, more experimentation is needed before the same level of control can be exerted over the multi-peak emission profiles of devices with more than one cavity. In particular, a study of multi-cavity emission with varying thickness could yield a better understanding of the significance of the various emission peaks. Additionally, a polarization analysis of the emission profiles at large angles could contribute to a better understanding of the resonant cavity behavior.
 
 \appendix
-\chapter{Component Spectra of Angular Resolved Spectroscopy}
+\chapter{Component Spectra of Angular Resolved Graphs}
 
-    \section{Single Cavity Aluminum Topped Device}
+    \section*{Single Cavity Aluminum Topped Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n1_al_top_waterfall.png}
+    \end{center}
     
-    \section{Single Cavity Silver Topped Device}
+    \section*{Single Cavity Silver Topped Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n1_ag_top_waterfall.png}
+    \end{center}
     
-    \section{Two Cavity Device}
+    \section*{Two Cavity Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n2_waterfall.png}
+    \end{center}
     
-    \section{Three Cavity Device}
+    \section*{Three Cavity Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n3_waterfall.png}
+    \end{center}
     
-    \section{Four Cavity Device}
+    \section*{Four Cavity Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n4_waterfall.png}
+    \end{center}
     
-    \section{Five Cavity Device}
+    \section*{Five Cavity Device}
+    \begin{center}
+    \includegraphics[width=0.95\textwidth]{images/n5_waterfall.png}
+    \end{center}
 
 \end{document}
