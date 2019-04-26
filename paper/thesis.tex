@@ -148,9 +148,27 @@ The ability to change the emission spectrum of an LED device has traditionally o
                 \label{fig:bandwidth}
             \end{wrapfigure}
 
-            Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness as shown in Figure \ref{fig:bandwidth}. Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
+            Analysis of the band width of the emission can be analyzed through the use of the quality factor. The quality factor is defined as:
+            \begin{equation}
+                Q=\frac{f_r}{\Delta f}=\frac{\omega_r}{\Delta\omega}
+            \end{equation}
+            where $\omega_r$ and $f_r$ describe the resonant frequency and $\Delta\omega$ and $\Delta f$ describe the bandwidth over which the energy is greater than half of the maximum. As shown in section \ref{peakWavelength}, the resonant wavelength is proportional to the cavity thickness with the constant of proportionality being related to the reciprocal of the resonant mode index, so the resonant frequencies should be inversely proportional to the cavity thickness:
+            \begin{equation}
+                \lambda\sim\frac{T}{q} \rightarrow \omega\sim\frac{q}{T}
+            \end{equation}
+            where $T$ is the cavity thickness and $q$ is the index of the resonant mode.
 
-            We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device (see Figure \ref{fig:n1_spectra}) makes the cause of this very clear. The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
+            From the Heisenberg Uncertainty Principle, we can see that the bandwidth, $\Delta\omega$, should be inversely proportional to the cavity thickness due to the fact that as the cavity is shrunk our uncertainty in the position of a photon in the resonant mode shinks, meaning that the uncertainty in the momentum of that photon must increase, leading to a larger bandwidth. Thus, we can see that the quality factor goes as:
+            \begin{equation}
+                Q\sim\frac{q}{T}T=q
+            \end{equation}
+            
+            Thus, we would predict a step function for $Q$ on $T$ such that $Q$ is constant within the regimes of a single resonant mode, and increases by a factor of $q$ when shifting to the next resonant mode. These predictions are supported by the data shown in Figure \ref{bandwidth}. The data shows steps at approximately 20, 50, and 70.
+
+
+            %Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness as shown in Figure \ref{fig:bandwidth}. Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
+
+            %We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device (see Figure \ref{fig:n1_spectra}) makes the cause of this very clear. The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
         
         \subsection{Effect of Top Electrode Material} \label{topMaterial}
             \begin{figure}[h!]
@@ -183,7 +201,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
 		\end{figure}
     
         \subsection{Behavior at Large Angles} \label{largeAngle}
-		In the angular resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts parabolically with increasing angle, and the emission splits into two distinctive peaks that separate as the angle increases. This is as would be predicted by the theory of wave propagation in a Fabry-P\'erot etalon\cite{Lim2011}. The modal splitting is the separation of the transverse electric (TE) and transverse magnetic (TM) modes splitting off from the superposition of them at $\theta=0$, called the transverse electric and magnetic (TEM) mode. (INCLUDE SOME MATH?)
+		In the angular resolved emission spectroscopy, we see that the emission profile of the resonance cavities are highly dependent on the viewing angle. The peak emission blueshifts parabolically with increasing angle, and the emission splits into two distinctive peaks that separate as the angle increases. This is as would be predicted by the theory of wave propagation in a Fabry-P\'erot etalon\cite{Lim2011}. The modal splitting is the separation of the transverse electric (TE) and transverse magnetic (TM) modes splitting off from the superposition of them at $\theta=0$, called the transverse electric and magnetic (TEM) mode. %(INCLUDE SOME MATH?)
 
     
         \subsection{Number of Resonant Modes} \label{numModes}
