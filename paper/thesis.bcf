@@ -1996,20 +1996,26 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Lim2011</bcf:citekey>
-    <bcf:citekey order="2">Ismail2016</bcf:citekey>
-    <bcf:citekey order="3">Ismail2016</bcf:citekey>
-    <bcf:citekey order="4">griffiths1999</bcf:citekey>
+    <bcf:citekey order="2">Shinar2008</bcf:citekey>
+    <bcf:citekey order="3">Shinar2008</bcf:citekey>
+    <bcf:citekey order="4">Gu1999</bcf:citekey>
     <bcf:citekey order="5">Ismail2016</bcf:citekey>
-    <bcf:citekey order="6">Pollnau2018</bcf:citekey>
-    <bcf:citekey order="7">siegman1986</bcf:citekey>
-    <bcf:citekey order="8">Cai2011</bcf:citekey>
-    <bcf:citekey order="8">Matsushima2008</bcf:citekey>
-    <bcf:citekey order="9">Cai2011</bcf:citekey>
-    <bcf:citekey order="9">Matsushima2008</bcf:citekey>
-    <bcf:citekey order="10">Stavrinou1999</bcf:citekey>
-    <bcf:citekey order="11">Lim2011</bcf:citekey>
-    <bcf:citekey order="12">Baldo2002</bcf:citekey>
-    <bcf:citekey order="12">Bulovi1998</bcf:citekey>
+    <bcf:citekey order="6">Ismail2016</bcf:citekey>
+    <bcf:citekey order="7">griffiths1999</bcf:citekey>
+    <bcf:citekey order="8">Ismail2016</bcf:citekey>
+    <bcf:citekey order="9">Pollnau2018</bcf:citekey>
+    <bcf:citekey order="10">siegman1986</bcf:citekey>
+    <bcf:citekey order="11">Hellerich2015</bcf:citekey>
+    <bcf:citekey order="12">Cai2011</bcf:citekey>
+    <bcf:citekey order="12">Matsushima2008</bcf:citekey>
+    <bcf:citekey order="13">Cai2011</bcf:citekey>
+    <bcf:citekey order="13">Matsushima2008</bcf:citekey>
+    <bcf:citekey order="14">joseph1995laser</bcf:citekey>
+    <bcf:citekey order="15">joseph1995laser</bcf:citekey>
+    <bcf:citekey order="16">Stavrinou1999</bcf:citekey>
+    <bcf:citekey order="17">Lim2011</bcf:citekey>
+    <bcf:citekey order="18">Baldo2002</bcf:citekey>
+    <bcf:citekey order="18">Bulovi1998</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

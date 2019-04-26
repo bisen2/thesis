@@ -200,6 +200,138 @@
       \verb https://books.google.com/books?id=M8XvAAAAMAAJ
       \endverb
     \endentry
+    \entry{Gu1999}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9ae7190013f3307cf8815e5ddb6ea3e5}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2bebc70393f4f89374e45f35a3e8e443}{%
+           family={Parthasarathy},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9107bdba25a5561e162860599c3e3dde}{%
+           family={Burrows},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ca37cef9a124b63a1b6f1c3f8a8a79cf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=03034f08ceb5ac46d075adecdaf4ade8}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={I.\bibnamedelimi G.},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a715daac7453804de8a33e94e63a32fc}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3abd0f294ba1d4136d913bc654de213d}{%
+           family={Forrest},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AIP} Publishing}%
+      }
+      \strng{namehash}{ae320d5b1bf7fafd334b351423815638}
+      \strng{fullhash}{230127d94a4a3936e95a6186877b9d31}
+      \strng{bibnamehash}{ae320d5b1bf7fafd334b351423815638}
+      \strng{authorbibnamehash}{ae320d5b1bf7fafd334b351423815638}
+      \strng{authornamehash}{ae320d5b1bf7fafd334b351423815638}
+      \strng{authorfullhash}{230127d94a4a3936e95a6186877b9d31}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{10}
+      \field{number}{8}
+      \field{title}{Transparent stacked organic light emitting devices. I. Design principles and transparent compound electrodes}
+      \field{volume}{86}
+      \field{year}{1999}
+      \field{pages}{4067\bibrangedash 4075}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.371331
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.371331
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.371331
+      \endverb
+    \endentry
+    \entry{Hellerich2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=514d2d06eeed43342c340f605a914716}{%
+           family={Hellerich},
+           familyi={H\bibinitperiod},
+           given={Emily\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ab3a3c6458257bd091351c041c1590eb}{%
+           family={Manna},
+           familyi={M\bibinitperiod},
+           given={Eeshita},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0fe24cc8d8f841472b667b6d34cc5d55}{%
+           family={Heise},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=60c47b0cf08cf5c857c2d99ccb32de04}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Rana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0f25ed91e1e9735b41c5ede4865091b2}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+        {{hash=55fda570edecfac460ee4c93a6401abe}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{49832a0183913f9980eaab85bdfd8013}
+      \strng{fullhash}{a79b22dd96d3c8121a05116d16f008d2}
+      \strng{bibnamehash}{49832a0183913f9980eaab85bdfd8013}
+      \strng{authorbibnamehash}{49832a0183913f9980eaab85bdfd8013}
+      \strng{authornamehash}{49832a0183913f9980eaab85bdfd8013}
+      \strng{authorfullhash}{a79b22dd96d3c8121a05116d16f008d2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organic Electronics}
+      \field{month}{9}
+      \field{title}{Deep blue/ultraviolet microcavity {OLEDs} based on solution-processed {PVK}:{CBP} blends}
+      \field{volume}{24}
+      \field{year}{2015}
+      \field{pages}{246\bibrangedash 253}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.orgel.2015.05.041
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.orgel.2015.05.041
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.orgel.2015.05.041
+      \endverb
+    \endentry
     \entry{Ismail2016}{article}{}
       \name{author}{4}{}{%
         {{hash=8d894506d02bc0a874945451ecff8e7b}{%
@@ -396,6 +528,50 @@
       \verb https://doi.org/10.1364/ol.43.005033
       \endverb
     \endentry
+    \entry{Shinar2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55fda570edecfac460ee4c93a6401abe}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0f25ed91e1e9735b41c5ede4865091b2}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{fullhash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{bibnamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authorbibnamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authornamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authorfullhash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{month}{6}
+      \field{number}{13}
+      \field{title}{Organic light-emitting devices ({OLEDs}) and {OLED}-based chemical and biological sensors: an overview}
+      \field{volume}{41}
+      \field{year}{2008}
+      \field{pages}{133001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3727/41/13/133001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/0022-3727/41/13/133001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/0022-3727/41/13/133001
+      \endverb
+    \endentry
     \entry{siegman1986}{book}{}
       \name{author}{1}{}{%
         {{hash=f94a9353c99578733e295a43b8cbf0f0}{%
@@ -479,6 +655,38 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.371233
+      \endverb
+    \endentry
+    \entry{joseph1995laser}{book}{}
+      \name{author}{1}{}{%
+        {{hash=883445b1a868bb90d569765f6b5b25c4}{%
+           family={Verdeyen},
+           familyi={V\bibinitperiod},
+           given={Joseph\bibnamedelima Thomas},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{883445b1a868bb90d569765f6b5b25c4}
+      \strng{fullhash}{883445b1a868bb90d569765f6b5b25c4}
+      \strng{bibnamehash}{883445b1a868bb90d569765f6b5b25c4}
+      \strng{authorbibnamehash}{883445b1a868bb90d569765f6b5b25c4}
+      \strng{authornamehash}{883445b1a868bb90d569765f6b5b25c4}
+      \strng{authorfullhash}{883445b1a868bb90d569765f6b5b25c4}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780137066667}
+      \field{series}{Prentice Hall series in solid state physical electronics}
+      \field{title}{Laser Electronics}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=WvFRAAAAMAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=WvFRAAAAMAAJ
       \endverb
     \endentry
   \enddatalist

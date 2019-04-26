@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Organic Light Emitting Diodes}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Waveguides and the Fabry-P\'erot Etalon}{3}% 
+\contentsline {section}{\numberline {1.2}Waveguides and the Fabry-P\'erot Etalon}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}OLEDs in Optically Resonant Microcavities}{5}% 
+\contentsline {section}{\numberline {1.3}Optically Resonant OLED Microcavities}{5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Experimental Methods}{6}% 
 \defcounter {refsection}{0}\relax 

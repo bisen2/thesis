@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{physics}
+\usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage[style=numeric,backend=biber]{biblatex}
 \addbibresource{thesis.bib}
 \usepackage[nottoc,numbib]{tocbibind}
@@ -19,7 +21,7 @@
 	\begin{center}
 		\vspace{1cm}
 		\Huge
-		\textbf{Precise Control of Organic LED Emission Through Optically Resonant Microcavity Amplification}\\
+		\textbf{Precise Control of Organic LED Emission Through Optically-Resonant Microcavity Confinement}\\
 		\vspace{1.5cm}
 		\Large
 		An Honors Thesis Presented\\
@@ -50,33 +52,33 @@ The ability to change the emission spectrum of an LED device has traditionally o
 \chapter{Introduction} \label{intro}
 
     \section{Organic Light Emitting Diodes}
-        Light emitting diodes (LEDs) have become prevalent in everyday life in applications ranging from screens to the headlights on cars. They have widely replaced the more traditional incandescent bulbs due to increased power efficiency, longevity, and compact size when compared to other luminescent devices. However, the most common LEDs require hazardous semiconductors such as gallium and arsenic doped silicon\cite{Lim2011}. In order to mitigate this, LEDs based off of organic materials, called OLEDs, have come into fruition. OLEDs are usually comprised of a transparent conductive oxide (TCO) as a transparent electrode, a metal for the non-transparent electrode, and three organic materials. These organic materials are used as a hole transport material, electron transport material, and an emissive material. The emissive material has a band structure suitable for electron and hole recombination and the release of a photon in the visible spectrum. The hole and electron transport materials serve primarily to ensure that all electron-hole recombination occurs in the emissive material.
+        Light emitting diodes (LEDs) have become prevalent in everyday life in applications ranging from screens to the headlights on cars. They have widely replaced the more traditional incandescent bulbs due to increased power efficiency, longevity, and compact size when compared to other luminescent devices. However, many LEDs require hazardous semiconductors such as gallium doped silicon\cite{Lim2011}. In order to mitigate this, LEDs based off of organic materials, called OLEDs, have come into fruition, with the first OLEDs being demonstrated by Tang and VanSlyke in 1987. OLEDs are usually comprised of a transparent conductive oxide (TCO) as a transparent electrode, a metal for the non-transparent electrode, and three organic materials. These organic materials are used as a hole transport material, electron transport material, and an emissive material\cite{Shinar2008}. The emissive material has a band structure suitable for electron and hole recombination and the release of a photon in the visible spectrum. The hole and electron transport materials serve primarily to ensure that all electron-hole recombination occurs in the emissive material. However, current OLED technology is still hindered in their power conversion efficiency, due in part to the low carrier mobilities in organic bulk\cite{Shinar2008}. Conventionally, the output intensity of an LED could be increased by thickening the recombination region, providing more recombination sites. With the limited mobility of carriers in organic materials, however, a thicker emission region makes effective charge injection into the recombination sites difficult. A method for mitigating this by stacking multiple OLEDs on top of one another with a shared electrode has been previously demonstrated\cite{Gu1999}, although this device structure was mainly focused on the applications in stacked pixels for OLED screens.
         
     \section{Waveguides and the Fabry-P\'erot Etalon}
         \begin{figure}
             \centering
             \includegraphics[width=0.75\textwidth]{images/etalon_schematic.png}
-            \caption{Schematic of the Fabry-P\'erot etalon. The steady state solutions for wave propogation in the normal mode of the etalon are shown\cite{Ismail2016}.}
+            \caption{Schematic of the Fabry-P\'erot etalon. The steady state solutions for wave propagation in the normal mode of the etalon are shown\cite{Ismail2016}.}
             \label{fig:etalon}
         \end{figure}
 
-        In electomagnetism, a waveguide is defined as a surface or set of surfaces made of a conductor such that the electric and magnetic fields within the conductor are restricted to zero. These waveguides provide boundary conditions to Maxwell's equations, such that only specific modes of propogation can occur within the waveguide. These allowed modes are generally called the transverse electric (TE) mode, the transverse magnetic (TM) mode, and in the special case of both TE and TM, the TEM mode\cite{griffiths1999}. One special form of waveguide, called the Fabry-P\'erot etalon, is characterized by two conducting planes with a transparent material in between. Due to the structure of the etalon, certain wavelengths of light resonate and are amplified by the etalon, while others destructively interfere with their reflections, and are eliminated\cite{Ismail2016}. In particular, the condition for amplification is that the frequency $\nu$ and wavenumber $k$ obey:
+        In electromagnetism, a waveguide is defined as a surface or set of surfaces made of a conductor such that the electric and magnetic fields within the conductor are restricted to zero. These waveguides provide boundary conditions to Maxwell's equations, such that only specific modes of propagation can occur within the waveguide. These allowed modes are generally called the transverse electric (TE) mode, the transverse magnetic (TM) mode, and in the special case of both TE and TM, the TEM mode\cite{griffiths1999}. One special form of waveguide, called the Fabry-P\'erot etalon, is characterized by two conducting planes with a transparent material in between. Due to the structure of the etalon, certain wavelengths of light resonate in the etalon, while others destructively interfere with their reflections, and are eliminated\cite{Ismail2016}. In particular, the condition for resonance is that the frequency $\nu$ and wave number $k$ obey:
         \begin{equation}
-            \nu_q=\frac{qc}{2ln}\ \mathrm{and}\ k_q=\frac{\pi q}{l}
+            \nu_q=\frac{qc}{2dn}\ \mathrm{and}\ k_q=\frac{\pi q}{l}
         \end{equation}
-        for the $q$th resonant mode. Here $c$ is the speed of light in vacuum, $l$ is the geometric length of the etalon, and $n$ is the index of refraction for the material inside\cite{Pollnau2018}. In the case of light propogating normal to the two planes, this condition can be intuitively understood as standing waves that have no amplitude at the metal surfaces. The amplification of light through the Fabry-P\'erot etalon is given by:
+        for the $q$th resonant mode. Here $c$ is the speed of light in vacuum, $d$ is the geometric length of the etalon, and $n$ is the index of refraction for the material inside\cite{Pollnau2018}. In the case of light propagating normal to the two planes, this condition can be intuitively understood as standing waves that have no amplitude at the metal surfaces. The transmittance of light through the Fabry-P\'erot etalon is given by:
         \begin{equation}
-            A'_{trans}=\frac{I_{trans}}{I_{inc}}=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2+4\sqrt{R_1R_2}\sin^2(\phi)}
+            T(\phi)=\frac{I_{trans}}{I_{inc}}=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2+4\sqrt{R_1R_2}\sin^2(\phi)}
         \end{equation}
-        where $\phi$ describes the phase shift between forward and backward propogating waves. In the special case of the resonant mode, $\phi=0$, so the resonant mode amplification is given by:
+        where $\phi$ describes the phase shift between forward and backward propagating waves inside the etalon. In the special case of the resonant mode, $\phi=0$, so the resonant mode transmittance is given by:
         \begin{equation}
-            A'_{trans}\qty(\nu_q)=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2}
+            T\qty(\nu_q)=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2}
         \end{equation}
         where $R_1$ and $R_2$ are the reflectivities of the conductive planes\cite{siegman1986}.
         
-    \newpage
-    \section{OLEDs in Optically Resonant Microcavities}
-        In the traditional Fabry-P\'erot etalon, the light source is located outside of the conductor planes, and the spectrum is collected on the opposite side of the conductor planes. However, by replacing the transparent electrode in an OLED with a partially reflective, partially transparent conductor, the electrodes of the device can be used as two reflective planes, making a Fabry-P\'erot etalon with the light source between the reflective planes. This can be achieved with a thin metal film as the partially transparent electrode. In this project, devices of this form were fabricated so that the emission of the OLED device underwent amplification by this optically resonant microcavity and the dependence of the emission spectrum on physical propoerties of the microcavity were explored.
+    \section{Optically Resonant OLED Microcavities}
+        In the traditional Fabry-P\'erot etalon, the light source is located outside of the conductor planes, and the spectrum is collected on the opposite side of the conductor planes. In a traditional OLED, an emitting material is located between a conductive electrode and a transparent electrode. By replacing the transparent electrode of an OLED with a partially reflective, partially transmissive film, the two devices can be combined to form Fabry-P\'erot etalon with an emissive source inside of it. This device would filter from the broadband emission of the OLED all wavelengths except the resonant modes, forming much narrower emission peaks\cite{Hellerich2015}. In this project, devices of this form were fabricated so that the emission of the OLED device underwent filtration by this optically resonant microcavity and the dependence of the emission spectrum on physical properties of the microcavity were explored.
+        %However, by replacing the transparent electrode in an OLED with a partially reflective, partially transparent conductor, the electrodes of the device can be used as two reflective planes, making a Fabry-P\'erot etalon with the light source between the reflective planes. This can be achieved with a thin metal film as the partially transparent electrode. In this project, devices of this form were fabricated so that the emission of the OLED device underwent amplification by this optically resonant microcavity and the dependence of the emission spectrum on physical properties of the microcavity were explored.
 
 \chapter{Experimental Methods} \label{methods}
 
@@ -98,14 +100,16 @@ The ability to change the emission spectrum of an LED device has traditionally o
     \section{Device Fabrication} \label{fab}
     \begin{wrapfigure}{r}{0.4\textwidth}
         \centering
+        \vspace{-0.5cm}
         \includegraphics[width=0.3\textwidth]{images/schematic.png}
         \caption{\small Schematic of a two-cavity device and the $\lambda/2$ resonant mode.}
         \label{fig:schematic}
+        \vspace{-0.5cm}
     \end{wrapfigure}
-    In order to generate optically resonant microcavities, a standard OLED recipe\cite{Cai2011,Matsushima2008} was used with the substitution of a 30nm metal electrode in the place of a transparent electrode. In particular, an oxidized silicon substrate had a 100nm bottom electrode of silver, followed by 1nm of molibdinum oxide, $x$nm of NPB, 20 (single cavity devices) or 26nm (multi-caqvity devices) of Alq$_3$, $x$nm of BPhen, 1nm of lithium flouride, and 30nm of aluminum deposited onto it through sequential thermal evaporation. For multi-cavity devices, this same structure was replicated in the following cavity, but inverted, as shown in Figure \ref{fig:schematic}. The thickness $x$ of the NPB and BPhen layers was modified to generate whatever cavity thickness was desired. In all multi-cavity devices transport layer thicknesses of $x=40$nm were used. All depositions were performed under a pressure of $10^{-7}$torr and vacuum was not broken during processing.
+    In order to generate optically resonant microcavities, a standard OLED recipe\cite{Cai2011,Matsushima2008} was used with the substitution of a 30nm metal electrode in the place of a transparent electrode. In particular, an oxidized silicon substrate had a 100nm bottom electrode of silver, followed by 1nm of molibdinum oxide, $x$nm of NPB, 20 (single cavity devices) or 26nm (multi-cavity devices) of Alq$_3$, $x$nm of BPhen, 1nm of lithium flouride, and 30nm of aluminum deposited onto it through sequential thermal evaporation. For multi-cavity devices, this same structure was replicated in the following cavity, but inverted, as shown in Figure \ref{fig:schematic}. The thickness $x$ of the NPB and BPhen layers was modified to generate whatever cavity thickness was desired. In all multi-cavity devices transport layer thicknesses of $x=40$nm were used. All depositions were performed under a pressure of $10^{-7}$torr and vacuum was not broken during processing.
 
     \section{Emission Spectroscopy} \label{spect}
-    Devices were stored and tested in a nitrogen glovebox with $<0.01$ppm O$_2$ and $<0.05$ppm H$_2$O to avoid degradation of devices. Emission spectra were collected using an OceanOptics (NAME?) spectrometer with a fiberoptic passthrough to the glovebox. The emission of the devices was passed through an iris to minimize the collection angle, then reflected off of a parabolic mirror to focus the emission into the fiber. Devices were mounted on a rotating stage and emission spectra were collected at 2.5 degree intervals from 0 to 90 degrees.
+    Devices were stored and tested in a nitrogen glovebox with $<0.01$ppm O$_2$ and $<0.05$ppm H$_2$O to avoid degradation of devices. Emission spectra were collected using an OceanOptics HDX visible and near-IR spectrometer with a fiber optic passthrough to the glovebox. The emission of the devices was passed through an iris to minimize the collection angle, then reflected off of a parabolic mirror to focus the emission into the fiber. Devices were mounted on a rotating stage and emission spectra were collected at 2.5 degree intervals from 0 to 90 degrees.
 
 \chapter{Results}
 
@@ -115,7 +119,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
     
         \begin{figure}[h!]%{r}{0.55\textwidth}
             \centering
-            \includegraphics[width=0.75\textwidth]{images/n1_spectra.png}
+            \includegraphics[width=0.73\textwidth]{images/n1_spectra.png}
             \caption{Emission spectra of single cavity devices of various cavity thicknesses, along with the natural emission spectrum of the Alq$_3$ emitter. As cavity thickness increases, the emission peak redshifts, until it shifts to the next resonant mode, returning to a blue color. Following each shift to the next resonant mode, the bandwidth of the emission narrows. The 182nm device shows a strong broadband emission along with the resonant mode. That is because the natural emission at the wavelength of the resonant mode is extremely weak, so the broadband leakage out of the cavity is on the same order as the resonant emission.}
             \label{fig:n1_spectra}
         \end{figure}
@@ -138,9 +142,9 @@ The ability to change the emission spectrum of an LED device has traditionally o
                 \label{fig:peak_emission}
             \end{wrapfigure}
 
-            An analysis of the peak wavelength of emission for each cavity thickness reveals a very strong correlation. In particular, a linear relationship is observed between the peak wavelength and the resonance cavity thickness, as shown in Figure \ref{fig:peak_emission}. This is logical as the wavelength of a resonant mode should be proportional to the width of the resonance cavity, with the constant of proportionality being the index of refraction for light in the organic materials. We do see some variation from the linear model, which is to be expected the overall index of refraction in the cavity is not a constant across devices. Specifically, by not keeping the ratio of each organics layer the same, we inadvertantly modified the index of refraction slightly, leading to small variations from the linear model.
+            An analysis of the peak wavelength of emission for each cavity thickness reveals a very strong correlation. In particular, a linear relationship is observed between the peak wavelength and the resonance cavity thickness, as shown in Figure \ref{fig:peak_emission}. This is logical as the wavelength of a resonant mode should be proportional to the width of the resonance cavity, with the constant of proportionality being the index of refraction for light in the organic materials. We do see some variation from the linear model, which is to be expected the overall index of refraction in the cavity is not a constant across devices. Specifically, by not keeping the ratio of each organics layer the same, we inadvertently modified the index of refraction slightly, leading to small variations from the linear model.
             
-            The linear model, however, is only valid for the regime of a single resonant mode. We see a break in the linearity of peak emission wavelength and cavity thicknesses at the points of transition from a half-integer resonance to the next. we have measured the transition from $\lambda/2$ to $\lambda$ and from $\lambda$ to $3\lambda/2$ at approximately 200nm and 310nm, respectively. This is as expected, as the resonant wavelength doubles when shifting from one half-integer mode to the next. We also notice that when the linear relationship picks up again on the other side of a transition to the next mode, the slope is decreased by a factor of roughly two, indicating that the constant of proportionality discussed above is not just dependent on the index of refraction, but also which resonant mode is being described.
+            The linear model, however, is only valid for the regime of a single resonant mode. We see a break in the linearity of peak emission wavelength and cavity thicknesses at the points of transition from a half-integer resonance to the next. We have measured the transition from $\lambda/2$ to $\lambda$ and from $\lambda$ to $3\lambda/2$ at approximately 200nm and 310nm, respectively. This is as expected, as the resonant wavelength doubles when shifting from one half-integer mode to the next. We also notice that when the linear relationship picks up again on the other side of a transition to the next mode, the slope is decreased, indicating that the constant of proportionality discussed above is not just dependent on the index of refraction, but also which resonant mode is being described.
         
         \subsection{Band Narrowing} \label{bandwidth}
             \begin{wrapfigure}{r}{0.45\textwidth}
@@ -149,42 +153,69 @@ The ability to change the emission spectrum of an LED device has traditionally o
                 \includegraphics[width=0.4\textwidth]{images/n1_quality_factor.png}
                 \caption{\small Quality factor as a function of cavity thickness for various single cavity devices.}
                 \label{fig:bandwidth}
+                \vspace{1cm}
             \end{wrapfigure}
 
             Analysis of the band width of the emission can be analyzed through the use of the quality factor. The quality factor is defined as:
             \begin{equation}
-                Q=\frac{f_r}{\Delta f}=\frac{\omega_r}{\Delta\omega}
+                Q=\frac{\nu_0}{\Delta\nu_{1/2}}
             \end{equation}
-            where $\omega_r$ and $f_r$ describe the resonant frequency and $\Delta\omega$ and $\Delta f$ describe the bandwidth over which the energy is greater than half of the maximum. As shown in section \ref{peakWavelength}, the resonant wavelength is proportional to the cavity thickness with the constant of proportionality being related to the reciprocal of the resonant mode index, so the resonant frequencies should be inversely proportional to the cavity thickness:
+            where $\nu_0$ is the resonant frequency and $\Delta\nu_{1/2}$ represents the full width at half max of the emission spectrum in Fourier space\cite{joseph1995laser}. By solving for the steady state solutions of the Fabry-P\'erot etalon, we find that $\Delta\nu_{1/2}$ is given by:
             \begin{equation}
-                \lambda\sim\frac{T}{q} \rightarrow \omega\sim\frac{q}{T}
+                \Delta\nu_{1/2}=\frac{c}{2nd}\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}
             \end{equation}
-            where $T$ is the cavity thickness and $q$ is the index of the resonant mode.
+            where $c$ is the speed of light in the organics, $n$ is integer describing the mode, and $d$ is the cavity thickness\cite{joseph1995laser}. Then, taking the resonant frequency $\nu_0$ to be the frequency of the peak intensity light:
+            \begin{equation}
+                \nu_0=\frac{c}{\lambda_0}
+            \end{equation}
+            We can obtain an expression for the quality factor of the device:
+            \begin{equation}
+                Q=\frac{\nu_0}{\Delta\nu_{1/2}}=\frac{c}{\lambda_0}\frac{2nd}{c}\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}=\frac{2nd}{\lambda_0}\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}
+            \end{equation}
+            Now, by introducing $q$ to be the number of half wavelengths in the cavity:
+            \begin{equation}
+                q=\frac{2nd}{\lambda_0}
+            \end{equation}
+            We see that the quality factor depends only on $q$ and the reflectivities of the metal electrodes:
+            \begin{equation}
+                Q=q\qty{\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}}
+            \end{equation}
+            Therefore, the steady state solutions of the Fabry-P\'erot etalon predict the quality factor to be a step function in $q$, which is confirmed by the data displayed in Figure \ref{fig:bandwidth}
 
-            From the Heisenberg Uncertainty Principle, we can see that the bandwidth, $\Delta\omega$, should be inversely proportional to the cavity thickness due to the fact that as the cavity is shrunk our uncertainty in the position of a photon in the resonant mode shinks, meaning that the uncertainty in the momentum of that photon must increase, leading to a larger bandwidth. Thus, we can see that the quality factor goes as:
-            \begin{equation}
-                Q\sim\frac{q}{T}T=q
-            \end{equation}
-            
-            Thus, we would predict a step function for $Q$ on $T$ such that $Q$ is constant within the regimes of a single resonant mode, and increases by a factor of $q$ when shifting to the next resonant mode. These predictions are supported by the data shown in Figure \ref{bandwidth}. The data shows steps at approximately 20, 50, and 70.
+%             where $\omega_r$ and $f_r$ describe the resonant frequency and $\Delta\omega$ and $\Delta f$ describe the bandwidth over which the energy is greater than half of the maximum. As shown in section \ref{peakWavelength}, the resonant wavelength is proportional to the cavity thickness with the constant of proportionality being related to the reciprocal of the resonant mode index, so the resonant frequencies should be inversely proportional to the cavity thickness:
+%             \begin{equation}
+%                 \lambda_r\sim\frac{T}{q} \rightarrow \omega_r\sim\frac{q}{T}
+%             \end{equation}
+%             where $T$ is the cavity thickness and $q$ is the index of the resonant mode.
+% 
+%             From the Heisenberg Uncertainty Principle, we can see that the bandwidth, $\Delta\omega$, should be inversely proportional to the cavity thickness. This is due to the fact that as the cavity is shrunk our uncertainty in the position of a photon in the resonant mode shinks. Thus, the uncertainty in the momentum of that photon must increase, leading to a larger bandwidth.
+%             \begin{equation}
+%                 \Delta\omega\sim\frac{1}{T}
+%             \end{equation}
+%             Therefore, we can see that the quality factor goes as:
+%             \begin{equation}
+%                 Q=\frac{\omega_r}{\Delta\omega}\sim\frac{q}{T}T=q
+%             \end{equation}
+%             
+%             From this, we would predict a step function for $Q$ on $T$ such that $Q$ is constant within the regimes of a single resonant mode, and increases by a factor of $q$ when shifting to the next resonant mode. These predictions are supported by the data shown in Figure \ref{bandwidth}.
 
 
             %Analysis of the quality factor (EXPLAIN?) shows that it also has a linear relationship with the cavity thickness as shown in Figure \ref{fig:bandwidth}. Unlike the peak emission wavelength, the linearity of the quality factor does not break at the transitions between resonant modes. This correlation can be understood as a manifestation of the Heisenberg uncertainty principle (CITE). In particular, as we widen the cavity, we increase the uncertainty in the position of a photon in the cavity. This increased uncertainty in the position of the photon gives us the ability to more precisely determine its momentum, which is directly proportional to its wavelength. Thus, the spread of wavelengths can be shrunk, effectively narrowing the bandwidth of the resonant emission.
 
             %We do see a strong outlier to the linear model in the 182nm cavity device. The quality factor of this device is significantly lower than would be expected with the linear model presented above. However, a look at the emission spectrum of this device (see Figure \ref{fig:n1_spectra}) makes the cause of this very clear. The resonant mode of this device has a wavelength of approximately 730nm, which is very far outside of the natural emission of the Alq$_3$ emitter. The emission spectrum shows that the emission of the resonant mode is on the same order as the broadband leakage out of the cavity. Thus, the calculation of the quality factor for the resonant mode is skewed due to the broadband emission widening the emission peak.
         
+        \begin{figure}[h!]
+            \centering
+            (a)
+            \includegraphics[width=0.45\textwidth]{images/n1_ag_top_heatmap.png}
+            (b)
+            \includegraphics[width=0.45\textwidth]{images/n1_al_top_heatmap.png}
+            \caption{\small Angular resolved emission profiles of single cavity devices topped with a silver electrode (a), and with an aluminum electrode (b). The aluminum topped device shows a much narrower emission peak than the silver topped device due to differences in optical properties of the metals.}
+            \label{fig:topMaterial}
+        \end{figure}
         \subsection{Effect of Top Electrode Material} \label{topMaterial}
-            \begin{figure}[h!]
-                \centering
-                (a)
-                \includegraphics[width=0.45\textwidth]{images/n1_ag_top_heatmap.png}
-                (b)
-                \includegraphics[width=0.45\textwidth]{images/n1_al_top_heatmap.png}
-                \caption{\small Angular resolved emission profiles of single cavity devices topped with a silver electrode (a), and with an aluminum electrode (b). The aluminum topped device shows a much narrower emission peak than the silver topped device due to differences in optical properties of the metals.}
-                \label{fig:topMaterial}
-            \end{figure}
 
-            As fabrication of the multi-cavity devices requires both regular and inverted devices, two devices were fabricated in identical conditions except that they were inverted with respect to each other. Each has a 100nm bottom electrode, 1nm capping layer, followed by a 40/26/40 set of organics layers, with a 1nm cap and 30nm top electrode, as was done with the multicavity devices. In comparing the emission spectra of the two devices, we see a massive difference. In particular, the aluminum topped device has a much narrower emission spectrum than the sliver topped device. The contrast in emission spectra is due to the differing optical properties of silver and aluminum. While both have similar transmittivities, aluminum absorbs a significant amount more than silver, and reflects significantly less\cite{Stavrinou1999}. In the aluminum topped device, almost all light that travels towards the bottom electrode is reflected by the 100nm silver electrode, strongly pinning that light to the resonant wavelength, which can then be partially transmitted through the top aluminum electrode. In the case of the silver topped device, however, the lower reflectivity on the bottom electrode gives a weaker resonant mode to be transmitted through the top electrode.
+            As fabrication of the multi-cavity devices requires both regular and inverted devices, two devices were fabricated in identical conditions except that they were inverted with respect to each other. Each has a 100nm bottom electrode, 1nm capping layer, followed by a 40/26/40 set of organics layers, with a 1nm cap and 30nm top electrode, as was done with the multi cavity devices. In comparing the emission spectra of the two devices, we see a massive difference. In particular, the aluminum topped device has a much narrower emission spectrum than the sliver topped device. The contrast in emission spectra is due to the differing optical properties of silver and aluminum. While both have similar transmissivities, aluminum absorbs a significant amount more than silver, and reflects significantly less\cite{Stavrinou1999}. In the aluminum topped device, almost all light that travels towards the bottom electrode is reflected by the 100nm silver electrode, strongly pinning that light to the resonant wavelength, which can then be partially transmitted through the top aluminum electrode. In the case of the silver topped device, however, the lower reflectivity on the bottom electrode gives a weaker resonant mode to be transmitted through the top electrode.
 
     \section{Multi-cavity Devices} \label{n>1}
         In all multi-cavity devices, a 100nm silver bottom electrode was used, with all subsequent electrodes at a thickness of 30nm. The cavities were created using a 26nm film of the Alq$_3$ emitter with 40nm contact layers on either side. This generates 126nm cavities for all multi-cavity devices.
@@ -208,7 +239,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
 
     
         \subsection{Number of Resonant Modes} \label{numModes}
-        We additinally see that a more complex modal structure can be generated with multi-cavity devices, even in forward emission. We see the first transition from one to two forward emission peaks in the transition from N=2 to N=3. The N=3 device has a narrow and intense emission peak at approximately 510nm with a slightly wider and weaker peak around 525nm. In the N=4 device, we also see two forward emission peaks, but the one around 510nm is significantly narrower and less intense with a broader, more intense peak occuring around 540nm. In the transition from N=4 to N=5, we see almost perfect preservation of the modal structure of N=4, with an additional peak superimposed between the two existing peaks. Although the cause of these additional peaks is not abundantly clear, the existence of two modes, one narrower than the other is logical. For example, in the N=4 device, the narrow peak could be generated by a resonant mode streching across the bottom three devices, while the broad peak is generated from resonances off of both the inner and outer interfaces of the top metal electrode. However, more experimentation would be necessary to confirm this theory.
+        We additionally see that a more complex modal structure can be generated with multi-cavity devices, even in forward emission. We see the first transition from one to two forward emission peaks in the transition from N=2 to N=3. The N=3 device has a narrow and intense emission peak at approximately 510nm with a slightly wider and weaker peak around 525nm. In the N=4 device, we also see two forward emission peaks, but the one around 510nm is significantly narrower and less intense with a broader, more intense peak occurring around 540nm. In the transition from N=4 to N=5, we see almost perfect preservation of the modal structure of N=4, with an additional peak superimposed between the two existing peaks. Although the cause of these additional peaks is not abundantly clear, the existence of two modes, one narrower than the other is logical. For example, in the N=4 device, the narrow peak could be generated by a resonant mode stretching across the bottom three devices, while the broad peak is generated from resonances off of both the inner and outer interfaces of the top metal electrode. However, more experimentation would be necessary to confirm this theory.
         \begin{figure}[h!]
             \centering
             (a)
@@ -254,11 +285,11 @@ The ability to change the emission spectrum of an LED device has traditionally o
 
 \chapter{Conclusion} \label{concl}
 
-    In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an OLED device, as well as generating more complex emission profiles. This technique utilizes device design alone, rather than chemical changes to the emitter materials. The relationships of both peak emission wavelength and bandwith with the thickness of the cavity allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided  an emissive material with a sufficiently wide broadband emission spectrum is used. However, the same level of control can not yet be exerted over the complex emission spectra of multi-cavity devices.
+    In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an OLED device, as well as generating more complex emission profiles. This technique utilizes device design alone, rather than chemical changes to the emitter materials. The relationships of both peak emission wavelength and bandwidth with the thickness of the cavity allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided  an emissive material with a sufficiently wide broadband emission spectrum is used. However, the same level of control can not yet be exerted over the complex emission spectra of multi-cavity devices.
     
-    In the future, we hope to study the multicavity emission in more detail. In particular, a collection of emission spectra from multi-cavity devices with a different cavity thickness could contribute to a better understanding of the relationship of the emission peaks and polarization analysis of the emission spectra of multi-cavity devices could lead to a stronger understanding of the modal structure of these devices. Additionally, more exploration into the band narrowing of multicavity devices could lead to the ability to make extremely narrow emission devices.
+    In the future, we hope to study the multi cavity emission in more detail. In particular, a collection of emission spectra from multi-cavity devices with a different cavity thickness could contribute to a better understanding of the relationship of the emission peaks and polarization analysis of the emission spectra of multi-cavity devices could lead to a stronger understanding of the modal structure of these devices. Additionally, more exploration into the band narrowing of multi cavity devices could lead to the ability to make extremely narrow emission devices.
     
-    Optically resonant microcavity amplified OLEDs could see many applications, such as in low cost screens or optics. In the fabrication of screens, these devices could replace the traditional three emitter materials with a single emitter material deposited over a patterned substrate to generate pixels with different colors while only requiring a single emitter deposition. The ability to generate narrow bandwidth light from cheap organic materials could also be beneficial in optical applications. If the bandwidth continues to narrow with more cavities, it is also possible that a many-cavity stacked device could reach the lasing threshold through electrical pumping\cite{Baldo2002,Bulovi1998}. %by avoiding the pitfalls of conventional electrically pumped organic diode lasers\cite{Baldo2002} using a device design similar to that used in optically pumped organic diode lasers\cite{Bulovi1998}.
+    Optically resonant microcavity confined OLEDs could see many applications, such as in low cost screens or optics. In the fabrication of screens, these devices could replace the traditional three emitter materials with a single emitter material deposited over a patterned substrate to generate pixels with different colors while only requiring a single emitter deposition. The ability to generate narrow bandwidth light from cheap organic materials could also be beneficial in optical applications. If the bandwidth continues to narrow with more cavities, it is also possible that a many-cavity stacked device could reach the lasing threshold through electrical pumping\cite{Baldo2002,Bulovi1998}. %by avoiding the pitfalls of conventional electrically pumped organic diode lasers\cite{Baldo2002} using a device design similar to that used in optically pumped organic diode lasers\cite{Bulovi1998}.
     
 \chapter{References}
     \printbibliography[heading=none]
