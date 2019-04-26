@@ -8,6 +8,7 @@
 \usepackage{physics}
 \usepackage[style=numeric,backend=biber]{biblatex}
 \addbibresource{thesis.bib}
+\usepackage[nottoc,numbib]{tocbibind}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -73,6 +74,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \end{equation}
         where $R_1$ and $R_2$ are the reflectivities of the conductive planes\cite{siegman1986}.
         
+    \newpage
     \section{OLEDs in Optically Resonant Microcavities}
         In the traditional Fabry-P\'erot etalon, the light source is located outside of the conductor planes, and the spectrum is collected on the opposite side of the conductor planes. However, by replacing the transparent electrode in an OLED with a partially reflective, partially transparent conductor, the electrodes of the device can be used as two reflective planes, making a Fabry-P\'erot etalon with the light source between the reflective planes. This can be achieved with a thin metal film as the partially transparent electrode. In this project, devices of this form were fabricated so that the emission of the OLED device underwent amplification by this optically resonant microcavity and the dependence of the emission spectrum on physical propoerties of the microcavity were explored.
 
@@ -130,7 +132,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \subsection{Peak Emission Wavelength} \label{peakWavelength}
             \begin{wrapfigure}{r}{0.45\textwidth}
                 \centering
-                \vspace{-1cm}
+                \vspace{-0.5cm}
                 \includegraphics[width=0.4\textwidth]{images/n1_peak_emission.png}
                 \caption{\small Peak emission wavelength as a function of thickness for various single cavity devices.}
                 \label{fig:peak_emission}
@@ -143,6 +145,7 @@ The ability to change the emission spectrum of an LED device has traditionally o
         \subsection{Band Narrowing} \label{bandwidth}
             \begin{wrapfigure}{r}{0.45\textwidth}
                 \centering
+                \vspace{-0.5cm}
                 \includegraphics[width=0.4\textwidth]{images/n1_quality_factor.png}
                 \caption{\small Quality factor as a function of cavity thickness for various single cavity devices.}
                 \label{fig:bandwidth}
@@ -251,13 +254,14 @@ The ability to change the emission spectrum of an LED device has traditionally o
 
 \chapter{Conclusion} \label{concl}
 
-    In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an LED device, as well as generating more complex emission profiles. This technique utilizes device design and processing alone, rather than chemical changes to the actual materials. The linearity between peak wavelength and cavity thickness as well as the relationship between bandwidth and cavity thickness in single cavity devices allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided  an emissive material with a sufficiently wide broadband emission spectrum is used. However, the same level of control can not yet be exerted over the complex emission spectra of multi-cavity devices.
+    In this project, we have demonstrated a technique for controlling the bandwidth and peak emission wavelength of an OLED device, as well as generating more complex emission profiles. This technique utilizes device design alone, rather than chemical changes to the emitter materials. The relationships of both peak emission wavelength and bandwith with the thickness of the cavity allows for the ability to design and fabricate a device to match any desired single peak emission profile, provided  an emissive material with a sufficiently wide broadband emission spectrum is used. However, the same level of control can not yet be exerted over the complex emission spectra of multi-cavity devices.
     
-    In the future, we hope to study the multicavity emission in more detail. In particular, a collection of emission spectra from multi-cavity devices with a different cavity thickness could contribute to a better understanding of the relationship of the emission peaks. Additionally, polarization analysis of the emission spectra of multi-cavity devices could lead to a stronger understanding of the modal structure of these devices. Finally, more exploration into the band narrowing of multicavity devices could lead to the ability to make extremely narrow emission devices.
+    In the future, we hope to study the multicavity emission in more detail. In particular, a collection of emission spectra from multi-cavity devices with a different cavity thickness could contribute to a better understanding of the relationship of the emission peaks and polarization analysis of the emission spectra of multi-cavity devices could lead to a stronger understanding of the modal structure of these devices. Additionally, more exploration into the band narrowing of multicavity devices could lead to the ability to make extremely narrow emission devices.
     
-    Optically resonant microcavity amplified OLEDs could see many applications, such as in low cost screens or optics. In the fabrication of screens, these devices could replace the traditional three emitter materials with a single emitter material deposited over a patterned substrate to generate pixels with different colors while only requiring a single emitter deposition. The ability to generate narrow bandwidth light from cheap organic materials could also be beneficial in optical applications. If the bandwidth continues to narrow with more cavities, it is also possible that a many-cavity stacked device could reach the lasing threshold through electrical pumping alone by avoiding the pitfalls of conventional electrically pumped organic diode lasers\cite{Baldo2002} using a device design similar to that used in optically pumped organic diode lasers\cite{Bulovi1998}.
+    Optically resonant microcavity amplified OLEDs could see many applications, such as in low cost screens or optics. In the fabrication of screens, these devices could replace the traditional three emitter materials with a single emitter material deposited over a patterned substrate to generate pixels with different colors while only requiring a single emitter deposition. The ability to generate narrow bandwidth light from cheap organic materials could also be beneficial in optical applications. If the bandwidth continues to narrow with more cavities, it is also possible that a many-cavity stacked device could reach the lasing threshold through electrical pumping\cite{Baldo2002,Bulovi1998}. %by avoiding the pitfalls of conventional electrically pumped organic diode lasers\cite{Baldo2002} using a device design similar to that used in optically pumped organic diode lasers\cite{Bulovi1998}.
     
-    \printbibliography
+\chapter{References}
+    \printbibliography[heading=none]
 
 \appendix
 \chapter{Component Spectra of Angular Resolved Graphs} \label{components}
