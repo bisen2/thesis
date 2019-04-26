@@ -657,6 +657,50 @@
       \verb https://doi.org/10.1063/1.371233
       \endverb
     \endentry
+    \entry{Tang1987}{article}{}
+      \name{author}{2}{}{%
+        {{hash=36ae907241a1c53d855cc3f543e02166}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ab29b3d71b69d105b5b40af148b8a63a}{%
+           family={VanSlyke},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AIP} Publishing}%
+      }
+      \strng{namehash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \strng{fullhash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \strng{bibnamehash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \strng{authorbibnamehash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \strng{authornamehash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \strng{authorfullhash}{7f52804ac00c0e2cfbc400654dfaade8}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{month}{9}
+      \field{number}{12}
+      \field{title}{Organic electroluminescent diodes}
+      \field{volume}{51}
+      \field{year}{1987}
+      \field{pages}{913\bibrangedash 915}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.98799
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.98799
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.98799
+      \endverb
+    \endentry
     \entry{joseph1995laser}{book}{}
       \name{author}{1}{}{%
         {{hash=883445b1a868bb90d569765f6b5b25c4}{%
