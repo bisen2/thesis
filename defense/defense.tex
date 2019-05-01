@@ -10,6 +10,7 @@
 \usepackage{amsmath}
 \usepackage{physics}
 \usepackage{graphicx}
+\usepackage{wrapfig}
 \usetheme{default}
 
 \begin{document}
@@ -47,9 +48,11 @@
     \begin{frame}
         \frametitle{OLED Materials}
     \end{frame}
+    
     \begin{frame}
         \frametitle{Device Fabrication}
     \end{frame}
+    
     \begin{frame}
         \frametitle{Angle-Resolved Electroluminscence Spectroscopy (ARES)}
     \end{frame}
@@ -60,27 +63,112 @@
     \subsection{Single Cavity Devices}
         \begin{frame}
             \frametitle{Single Cavity Devices}
+            \begin{columns}
+                \begin{column}{0.4\textwidth}
+					Test
+                \end{column}
+                \begin{column}{0.6\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/n1_spectra.png}
+                \end{column}
+            \end{columns}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Peak Emission Wavelength}
+            \begin{columns}
+                \begin{column}{0.4\textwidth}
+					\centering
+					Equations?
+					\includegraphics[width=\textwidth]{images/n1_peak_emission.png}
+                \end{column}
+                \begin{column}{0.6\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/n1_spectra.png}
+                \end{column}
+            \end{columns}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Band Narrowing}
+            \begin{columns}
+                \begin{column}{0.4\textwidth}
+					\centering
+					$$Q=q\qty{\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}}$$
+					$$q=\frac{2nd}{\lambda_0}$$
+					\includegraphics[width=\textwidth]{images/n1_quality_factor.png}
+                \end{column}
+                \begin{column}{0.6\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/n1_spectra.png}
+                \end{column}
+            \end{columns}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Effect of Bottom Electrode Material}
+            \begin{columns}
+				\begin{column}{0.5\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/n1_ag_top_heatmap.png}
+					Aluminum bottom electrode
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/n1_al_top_heatmap.png}
+					Silver bottom electrode
+				\end{column}
+
+
+            \end{columns}
+
         \end{frame}
         
     \subsection{Multi-cavity Devices}
         \begin{frame}
             \frametitle{Multi-cavity Devices}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Behavior at Large Angles}
+            \begin{columns}
+				\begin{column}{0.5\textwidth}
+					\centering
+					N=2\\
+					\includegraphics[width=0.7\textwidth]{images/n2_heatmap.png}\\
+					N=4\\
+					\includegraphics[width=0.7\textwidth]{images/n4_heatmap.png}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\centering
+					N=3\\
+					\includegraphics[width=0.7\textwidth]{images/n3_heatmap.png}\\
+					N=5\\
+					\includegraphics[width=0.7\textwidth]{images/n5_heatmap.png}
+				\end{column}
+            \end{columns}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Number of Resonant Modes}
+            \begin{columns}
+				\begin{column}{0.5\textwidth}
+					\centering
+					N=2\\
+					\includegraphics[width=\textwidth]{images/n2_fe.png}\\
+					N=4\\
+					\includegraphics[width=\textwidth]{images/n4_fe.png}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\centering
+					N=3\\
+					\includegraphics[width=\textwidth]{images/n3_fe.png}\\
+					N=5\\
+					\includegraphics[width=\textwidth]{images/n5_fe.png}
+				\end{column}
+            \end{columns}
         \end{frame}
+        
         \begin{frame}
             \frametitle{Bandwidth of Resonant Modes}
         \end{frame}
@@ -90,12 +178,15 @@
     \begin{frame}
         \frametitle{Conclusions}
     \end{frame}
+    
     \begin{frame}
         \frametitle{References}
     \end{frame}
+    
     \begin{frame}
         \frametitle{Aknowledgements}
     \end{frame}
+    
     \begin{frame}
         \frametitle{Questions?}
     \end{frame}
