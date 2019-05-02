@@ -12,6 +12,10 @@
 \usepackage{physics}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\usepackage[style=numeric,backend=biber]{biblatex}
+\addbibresource{defense.bib}
+\renewcommand*{\bibfont}{\normalfont\tiny}
 \usetheme{default}
 
 \begin{document}
@@ -31,7 +35,14 @@
             \frametitle{OLED Devices}
             \begin{columns}
 				\begin{column}{0.4\textwidth}
-				 
+					\begin{itemize}
+						\item Electron-hole recombination in the emissive layer
+						\vspace{0.5cm}
+						\item Use of TCO to maximize photon outcoupling
+						\vspace{0.5cm}
+						\item Color determined only by the material in the emissive layer
+					\end{itemize}
+
 				\end{column}
 				\begin{column}{0.6\textwidth}
 					\includegraphics[width=\textwidth]{images/oled_band_diagram.png}
@@ -44,12 +55,39 @@
     \subsection{Waveguides and the Fabry-P\'erot Etalon}
         \begin{frame}
             \frametitle{Waveguides}
+            \begin{columns}
+				\begin{column}{0.4\textwidth}
+					\begin{itemize}
+						\item Conductors provide bounds to Maxwell's Equations
+						\vspace{0.5cm}
+						\item General modes of propagation
+						\begin{itemize}
+							\item TE Mode
+							\item TM Mode
+							\item TEM Mode
+						\end{itemize}
+					\end{itemize}
+
+				\end{column}
+				\begin{column}{0.6\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{images/te_tm.png}
+					\tiny https://www.allaboutcircuits.com/
+				\end{column}
+
+            \end{columns}
+
         \end{frame}
+        
         \begin{frame}
             \frametitle{The Fabry-P\'erot Etalon}
             \centering
             \includegraphics[width=0.75\textwidth]{images/etalon_schematic.png}\\
+            \tiny https://en.wikipedia.org/wiki/Fabry-P\'erot\_interferometer\\
+            \small
+            \vspace{0.5cm}
             $$T(\phi)=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2+4\sqrt{R_1R_2}\sin^2(\phi)}$$
+            \vspace{0.5cm}
             $$T_{\phi=0}=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2}$$
         \end{frame}
         
@@ -58,6 +96,16 @@
             \frametitle{Microcavity-confined OLEDs}
             \begin{columns}
 				\begin{column}{0.5\textwidth}
+					\begin{itemize}
+						\item Replace TCO with partially reflective metal film
+						\vspace{0.5cm}
+						\item Fabry-P\'erot etalon with emission source inside
+						\vspace{0.5cm}
+						\item Resonant mode selected out of the broadband emission
+						\vspace{0.5cm}
+						\item Standing wave resonance across multiple cavity stack
+					\end{itemize}
+
 				\end{column}
 				\begin{column}{0.5\textwidth}
 					\centering
@@ -103,18 +151,6 @@
     \frame{\tableofcontents[currentsection]}
     
     \subsection{Single Cavity Devices}
-        \begin{frame}
-            \frametitle{Single Cavity Devices}
-            \begin{columns}
-                \begin{column}{0.4\textwidth}
-					Test
-                \end{column}
-                \begin{column}{0.6\textwidth}
-					\centering
-					\includegraphics[width=\textwidth]{images/n1_spectra.png}
-                \end{column}
-            \end{columns}
-        \end{frame}
         
         \begin{frame}
             \frametitle{Peak Emission Wavelength}
@@ -163,16 +199,10 @@
 					\includegraphics[width=\textwidth]{images/n1_al_top_heatmap.png}
 					Silver bottom electrode
 				\end{column}
-
-
             \end{columns}
-
         \end{frame}
         
     \subsection{Multi-cavity Devices}
-        \begin{frame}
-            \frametitle{Multi-cavity Devices}
-        \end{frame}
         
         \begin{frame}
             \frametitle{Behavior at Large Angles}
@@ -218,14 +248,54 @@
     \frame{\tableofcontents[currentsection]}
     \begin{frame}
         \frametitle{Conclusions and Future Work}
+        \begin{itemize}
+			\item Control of peak emission wavelength with cavity thickness
+			\vspace{0.5cm}
+			\item Control of bandwidth with cavity thickness and multi-cavity devices
+			\vspace{0.5cm}
+			\item More research into controlling the multi-peak emission of multi-cavity devices
+			\vspace{0.5cm}
+			\item Push towards the lasing threshold with devices of $N>10$
+        \end{itemize}
     \end{frame}
     
     \begin{frame}
         \frametitle{References}
+        \nocite{griffiths1999}
+        \nocite{Matsushima2008}
+        \nocite{Stavrinou1999}
+        \nocite{Ismail2016}
+        \nocite{Bulovi1998}
+        \nocite{Shinar2008}
+        \printbibliography[heading=none]
     \end{frame}
     
     \begin{frame}
         \frametitle{Acknowledgements}
+        \begin{columns}
+			\begin{column}{0.4\textwidth}
+				\begin{itemize}
+					\item Lab Group
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+				\begin{itemize}
+					\item Funding
+					\begin{itemize}
+						\item UVM FOUR
+						\item UVM Clean Energy Fund
+						\item UVM Department of Physics
+					\end{itemize}
+					\vspace{1cm}
+					\item Committee Members
+					\begin{itemize}
+						\item Dr. Frederic Sansoz
+						\item Dr. Madalina Furis
+						\item Dr. Matthew S. White
+					\end{itemize}
+				\end{itemize}
+			\end{column}
+        \end{columns}
     \end{frame}
     
     \begin{frame}

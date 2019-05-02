@@ -1,0 +1,302 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Bulovi1998}{article}{}
+      \name{author}{1}{}{%
+        {{hash=39fb545af99447a938e18bfd7e77734c}{%
+           family={Bulovi},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science ({AAAS})}%
+      }
+      \strng{namehash}{39fb545af99447a938e18bfd7e77734c}
+      \strng{fullhash}{39fb545af99447a938e18bfd7e77734c}
+      \strng{bibnamehash}{39fb545af99447a938e18bfd7e77734c}
+      \strng{authorbibnamehash}{39fb545af99447a938e18bfd7e77734c}
+      \strng{authornamehash}{39fb545af99447a938e18bfd7e77734c}
+      \strng{authorfullhash}{39fb545af99447a938e18bfd7e77734c}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{1}
+      \field{number}{5350}
+      \field{title}{Transform-Limited, Narrow-Linewidth Lasing Action in Organic Semiconductor Microcavities}
+      \field{volume}{279}
+      \field{year}{1998}
+      \true{nocite}
+      \field{pages}{553\bibrangedash 555}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1126/science.279.5350.553
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1126/science.279.5350.553
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1126/science.279.5350.553
+      \endverb
+    \endentry
+    \entry{griffiths1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ca66bbf3ab1a52eadeefc36dc52dc408}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \strng{fullhash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \strng{bibnamehash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \strng{authorbibnamehash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \strng{authornamehash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \strng{authorfullhash}{ca66bbf3ab1a52eadeefc36dc52dc408}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780138053260}
+      \field{title}{Introduction to Electrodynamics}
+      \field{year}{1999}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=M8XvAAAAMAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=M8XvAAAAMAAJ
+      \endverb
+    \endentry
+    \entry{Ismail2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8d894506d02bc0a874945451ecff8e7b}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Nur},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1ca9e2b510c723d041075bd44e974d18}{%
+           family={Kores},
+           familyi={K\bibinitperiod},
+           given={Cristine\bibnamedelima Calil},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3dd7c2460b66ab2aa681647a45651ea2}{%
+           family={Geskus},
+           familyi={G\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod}}}%
+        {{hash=742009763dc88a75d561ee2b788f4854}{%
+           family={Pollnau},
+           familyi={P\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Optical Society}%
+      }
+      \strng{namehash}{2c35931d0798dc85e2dc2316a7dd4b14}
+      \strng{fullhash}{ff350774cfcdcd1ff64760b2ef46016b}
+      \strng{bibnamehash}{2c35931d0798dc85e2dc2316a7dd4b14}
+      \strng{authorbibnamehash}{2c35931d0798dc85e2dc2316a7dd4b14}
+      \strng{authornamehash}{2c35931d0798dc85e2dc2316a7dd4b14}
+      \strng{authorfullhash}{ff350774cfcdcd1ff64760b2ef46016b}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics Express}
+      \field{month}{7}
+      \field{number}{15}
+      \field{title}{Fabry-P{é}rot resonator: spectral line shapes, generic and related Airy distributions, linewidths, finesses, and performance at low or frequency-dependent reflectivity}
+      \field{volume}{24}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{16366}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/oe.24.016366
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1364/oe.24.016366
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1364/oe.24.016366
+      \endverb
+    \endentry
+    \entry{Matsushima2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=78e7243f689aa23fa8a6f2e3dc3d4284}{%
+           family={Matsushima},
+           familyi={M\bibinitperiod},
+           given={Toshinori},
+           giveni={T\bibinitperiod}}}%
+        {{hash=65afafe001df498b71d7d1417a8468bb}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Guang-He},
+           giveni={G\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=181c7a8409264c34d152d1979f22ec8f}{%
+           family={Murata},
+           familyi={M\bibinitperiod},
+           given={Hideyuki},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AIP} Publishing}%
+      }
+      \strng{namehash}{737067910a305c43f82b785d00d19d8d}
+      \strng{fullhash}{737067910a305c43f82b785d00d19d8d}
+      \strng{bibnamehash}{737067910a305c43f82b785d00d19d8d}
+      \strng{authorbibnamehash}{737067910a305c43f82b785d00d19d8d}
+      \strng{authornamehash}{737067910a305c43f82b785d00d19d8d}
+      \strng{authorfullhash}{737067910a305c43f82b785d00d19d8d}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Marked improvement in electroluminescence characteristics of organic light-emitting diodes using an ultrathin hole-injection layer of molybdenum oxide}
+      \field{volume}{104}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{054501}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2974089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.2974089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.2974089
+      \endverb
+    \endentry
+    \entry{Shinar2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55fda570edecfac460ee4c93a6401abe}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0f25ed91e1e9735b41c5ede4865091b2}{%
+           family={Shinar},
+           familyi={S\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{fullhash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{bibnamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authorbibnamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authornamehash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \strng{authorfullhash}{2ffdc1b3e185a964d35cd804974ba6ea}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics D: Applied Physics}
+      \field{month}{6}
+      \field{number}{13}
+      \field{title}{Organic light-emitting devices ({OLEDs}) and {OLED}-based chemical and biological sensors: an overview}
+      \field{volume}{41}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{133001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3727/41/13/133001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/0022-3727/41/13/133001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/0022-3727/41/13/133001
+      \endverb
+    \endentry
+    \entry{Stavrinou1999}{article}{}
+      \name{author}{4}{}{%
+        {{hash=320b2ff34ad0573db5354f02c32a1c3c}{%
+           family={Stavrinou},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=06863a36c1919e80a759b1ef21c556cc}{%
+           family={Whitehead},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c568c2ca000adadb9f0f4459b5bcdc04}{%
+           family={Parry},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6a881a4aedb2b67bb06237c440ef6dc5}{%
+           family={Button},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{AIP} Publishing}%
+      }
+      \strng{namehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{fullhash}{bbb644a87f1269b44170ab8d3c855437}
+      \strng{bibnamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authorbibnamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authornamehash}{71051bd0d82472cca3821a7a712cb8b7}
+      \strng{authorfullhash}{bbb644a87f1269b44170ab8d3c855437}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{Angular spectrum of visible resonant cavity light-emitting diodes}
+      \field{volume}{86}
+      \field{year}{1999}
+      \true{nocite}
+      \field{pages}{3475\bibrangedash 3477}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.371233
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.371233
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.371233
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
