@@ -36,26 +36,37 @@
         \end{frame}
         \begin{frame}
             \frametitle{The Fabry-P\'erot Etalon}
+            \centering
+            \includegraphics[width=0.75\textwidth]{images/etalon_schematic.png}\\
+            $$T(\phi)=\frac{I_{trans}}{I_{inc}}=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2+4\sqrt{R_1R_2}\sin^2(\phi)}$$
+            $$T_{\phi=0}=\frac{\qty(1-R_1)\qty(1-R_2)}{\qty(1-\sqrt{R_1R_2})^2}$$
         \end{frame}
         
     \subsection{Microcavity-confined OLEDs}
         \begin{frame}
             \frametitle{Microcavity-confined OLEDs}
+            \begin{columns}
+				\begin{column}{0.5\textwidth}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.7\textwidth]{images/schematic.png}
+				\end{column}
+            \end{columns}
+
         \end{frame}
         
 \section{Experimental Methods}
     \frame{\tableofcontents[currentsection]}
-    \begin{frame}
-        \frametitle{OLED Materials}
-    \end{frame}
+    \subsection{Device Fabrication}
+		\begin{frame}
+			\frametitle{Device Fabrication}
+		\end{frame}
     
-    \begin{frame}
-        \frametitle{Device Fabrication}
-    \end{frame}
-    
-    \begin{frame}
-        \frametitle{Angle-Resolved Electroluminscence Spectroscopy (ARES)}
-    \end{frame}
+    \subsection{Angle-Resolved Electroluminescence Spectroscopy}
+		\begin{frame}
+			\frametitle{Angle-Resolved Electroluminescence Spectroscopy (ARES)}
+		\end{frame}
     
 \section{Results}
     \frame{\tableofcontents[currentsection]}
@@ -79,7 +90,10 @@
             \begin{columns}
                 \begin{column}{0.4\textwidth}
 					\centering
-					Equations?
+					$$\lambda_0=\frac{2nd}{q}$$
+					$n\ \rightarrow$ index of refraction\\
+					$d\ \rightarrow$ cavity thickness\\
+					$q\ \rightarrow$ resonant mode\\
 					\includegraphics[width=\textwidth]{images/n1_peak_emission.png}
                 \end{column}
                 \begin{column}{0.6\textwidth}
@@ -94,8 +108,8 @@
             \begin{columns}
                 \begin{column}{0.4\textwidth}
 					\centering
+					$$Q=\frac{2nd}{\lambda_0}\qty{\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}}$$
 					$$Q=q\qty{\frac{1-\sqrt{R_1R_2}}{\pi\qty(R_1R_2)^{1/4}}}$$
-					$$q=\frac{2nd}{\lambda_0}$$
 					\includegraphics[width=\textwidth]{images/n1_quality_factor.png}
                 \end{column}
                 \begin{column}{0.6\textwidth}
@@ -134,49 +148,45 @@
             \begin{columns}
 				\begin{column}{0.5\textwidth}
 					\centering
-					N=2\\
+					N=2 cavities\\
 					\includegraphics[width=0.7\textwidth]{images/n2_heatmap.png}\\
-					N=4\\
+					N=4 cavities\\
 					\includegraphics[width=0.7\textwidth]{images/n4_heatmap.png}
 				\end{column}
 				\begin{column}{0.5\textwidth}
 					\centering
-					N=3\\
+					N=3 cavities\\
 					\includegraphics[width=0.7\textwidth]{images/n3_heatmap.png}\\
-					N=5\\
+					N=5 cavities\\
 					\includegraphics[width=0.7\textwidth]{images/n5_heatmap.png}
 				\end{column}
             \end{columns}
         \end{frame}
         
         \begin{frame}
-            \frametitle{Number of Resonant Modes}
+            \frametitle{Number and Bandwidth of Resonant Modes}
             \begin{columns}
 				\begin{column}{0.5\textwidth}
 					\centering
-					N=2\\
+					N=2 cavities\\
 					\includegraphics[width=\textwidth]{images/n2_fe.png}\\
-					N=4\\
+					N=4 cavities\\
 					\includegraphics[width=\textwidth]{images/n4_fe.png}
 				\end{column}
 				\begin{column}{0.5\textwidth}
 					\centering
-					N=3\\
+					N=3 cavities\\
 					\includegraphics[width=\textwidth]{images/n3_fe.png}\\
-					N=5\\
+					N=5 cavities\\
 					\includegraphics[width=\textwidth]{images/n5_fe.png}
 				\end{column}
             \end{columns}
         \end{frame}
         
-        \begin{frame}
-            \frametitle{Bandwidth of Resonant Modes}
-        \end{frame}
-        
 \section{Conclusions}
     \frame{\tableofcontents[currentsection]}
     \begin{frame}
-        \frametitle{Conclusions}
+        \frametitle{Conclusions and Future Work}
     \end{frame}
     
     \begin{frame}

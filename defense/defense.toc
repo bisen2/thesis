@@ -3,7 +3,9 @@
 \beamer@subsectionintoc {1}{2}{Waveguides and the Fabry-P\'erot Etalon}{5}{0}{1}
 \beamer@subsectionintoc {1}{3}{Microcavity-confined OLEDs}{7}{0}{1}
 \beamer@sectionintoc {2}{Experimental Methods}{8}{0}{2}
-\beamer@sectionintoc {3}{Results}{12}{0}{3}
-\beamer@subsectionintoc {3}{1}{Single Cavity Devices}{13}{0}{3}
-\beamer@subsectionintoc {3}{2}{Multi-cavity Devices}{17}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{21}{0}{4}
+\beamer@subsectionintoc {2}{1}{Device Fabrication}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Angle-Resolved Electroluminescence Spectroscopy}{10}{0}{2}
+\beamer@sectionintoc {3}{Results}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Single Cavity Devices}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Multi-cavity Devices}{16}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{19}{0}{4}
