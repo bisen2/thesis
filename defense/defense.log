@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.29)  2 MAY 2019 09:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.29)  2 MAY 2019 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1215,200 +1215,240 @@ Package biblatex Info: ... file 'defense.bbl' found.
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
  (./defense.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 25.
+line 26.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [1
+)
+<images/uvm_logo.png, id=57, 206.4513pt x 54.4434pt>
+File: images/uvm_logo.png Graphic file (type png)
+<use images/uvm_logo.png>
+Package pdftex.def Info: images/uvm_logo.png  used on input line 26.
+(pdftex.def)             Requested size: 107.89711pt x 28.45274pt.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./defense.toc) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/uvm_logo.png>]
+(./defense.toc) [2
 
 ] (./defense.toc) [3
 
 ]
-<images/oled_band_diagram.png, id=171, 557.1214pt x 360.4667pt>
+<images/oled_band_diagram.png, id=174, 557.1214pt x 360.4667pt>
 File: images/oled_band_diagram.png Graphic file (type png)
 <use images/oled_band_diagram.png>
-Package pdftex.def Info: images/oled_band_diagram.png  used on input line 53.
+Package pdftex.def Info: images/oled_band_diagram.png  used on input line 54.
 (pdftex.def)             Requested size: 184.3758pt x 119.2954pt.
  [4
 
  <./images/oled_band_diagram.png>]
-<images/te_tm.png, id=199, 584.1825pt x 331.2375pt>
+<images/te_tm.png, id=201, 584.1825pt x 331.2375pt>
 File: images/te_tm.png Graphic file (type png)
 <use images/te_tm.png>
-Package pdftex.def Info: images/te_tm.png  used on input line 80.
+Package pdftex.def Info: images/te_tm.png  used on input line 81.
 (pdftex.def)             Requested size: 184.3758pt x 104.54253pt.
- [5
+
+[5
 
  <./images/te_tm.png (PNG copy)>]
-<images/etalon_schematic.png, id=225, 308.352pt x 92.0238pt>
+<images/etalon_schematic.png, id=227, 308.352pt x 92.0238pt>
 File: images/etalon_schematic.png Graphic file (type png)
 <use images/etalon_schematic.png>
-Package pdftex.def Info: images/etalon_schematic.png  used on input line 92.
+Package pdftex.def Info: images/etalon_schematic.png  used on input line 93.
 (pdftex.def)             Requested size: 230.46739pt x 68.78177pt.
-
-[6
+ [6
 
  <./images/etalon_schematic.png>]
-<images/schematic.png, id=256, 394.23285pt x 603.81586pt>
+<images/schematic.png, id=258, 394.23285pt x 603.81586pt>
 File: images/schematic.png Graphic file (type png)
 <use images/schematic.png>
-Package pdftex.def Info: images/schematic.png  used on input line 116.
+Package pdftex.def Info: images/schematic.png  used on input line 117.
 (pdftex.def)             Requested size: 122.9164pt x 188.25896pt.
- [7
+
+[7
 
  <./images/schematic.png>] (./defense.toc) [8
 
 ]
-<images/microcavity_band_diagram.png, id=319, 1073.5307pt x 360.4667pt>
+<images/microcavity_band_diagram.png, id=321, 1073.5307pt x 360.4667pt>
 File: images/microcavity_band_diagram.png Graphic file (type png)
 <use images/microcavity_band_diagram.png>
 Package pdftex.def Info: images/microcavity_band_diagram.png  used on input lin
-e 143.
-(pdftex.def)             Requested size: 307.28987pt x 103.1796pt.
-<images/npb_structure.jpg, id=320, 475.7775pt x 475.7775pt>
+e 145.
+(pdftex.def)             Requested size: 199.73653pt x 67.0648pt.
+<images/evaporator.jpg, id=322, 3011.25pt x 2258.4375pt>
+File: images/evaporator.jpg Graphic file (type jpg)
+<use images/evaporator.jpg>
+Package pdftex.def Info: images/evaporator.jpg  used on input line 145.
+(pdftex.def)             Requested size: 92.1879pt x 69.12863pt.
+<images/npb_structure.jpg, id=323, 475.7775pt x 475.7775pt>
 File: images/npb_structure.jpg Graphic file (type jpg)
 <use images/npb_structure.jpg>
-Package pdftex.def Info: images/npb_structure.jpg  used on input line 143.
+Package pdftex.def Info: images/npb_structure.jpg  used on input line 145.
 (pdftex.def)             Requested size: 73.7506pt x 73.74474pt.
-<images/Alq3_structure.png, id=321, 180.675pt x 171.64125pt>
+<images/Alq3_structure.png, id=324, 180.675pt x 171.64125pt>
 File: images/Alq3_structure.png Graphic file (type png)
 <use images/Alq3_structure.png>
-Package pdftex.def Info: images/Alq3_structure.png  used on input line 143.
+Package pdftex.def Info: images/Alq3_structure.png  used on input line 145.
 (pdftex.def)             Requested size: 73.7506pt x 70.06169pt.
-<images/bphen_structure.jpg, id=322, 451.6875pt x 451.6875pt>
+<images/bphen_structure.jpg, id=325, 451.6875pt x 451.6875pt>
 File: images/bphen_structure.jpg Graphic file (type jpg)
 <use images/bphen_structure.jpg>
-Package pdftex.def Info: images/bphen_structure.jpg  used on input line 143.
+Package pdftex.def Info: images/bphen_structure.jpg  used on input line 145.
 (pdftex.def)             Requested size: 73.7506pt x 73.7464pt.
  [9
 
- <./images/microcavity_band_diagram.png> <./images/npb_structure.jpg> <./images
-/alq3_structure.png> <./images/bphen_structure.jpg>] [10
+ <./images/microcavity_band_diagram.png> <./images/evaporator.jpg> <./images/np
+b_structure.jpg> <./images/alq3_structure.png> <./images/bphen_structure.jpg>]
+<images/ares.png, id=351, 3468.2373pt x 2086.4349pt>
+File: images/ares.png Graphic file (type png)
+<use images/ares.png>
+Package pdftex.def Info: images/ares.png  used on input line 152.
+(pdftex.def)             Requested size: 230.46739pt x 138.61565pt.
+ [10
 
-]
+ <./images/ares.png>]
 (./defense.toc) [11
 
 ]
-<images/n1_peak_emission.png, id=409, 174.8934pt x 179.9523pt>
-File: images/n1_peak_emission.png Graphic file (type png)
-<use images/n1_peak_emission.png>
-Package pdftex.def Info: images/n1_peak_emission.png  used on input line 171.
-(pdftex.def)             Requested size: 122.91406pt x 126.47096pt.
-<images/n1_spectra.png, id=410, 354.8457pt x 390.258pt>
-File: images/n1_spectra.png Graphic file (type png)
-<use images/n1_spectra.png>
-Package pdftex.def Info: images/n1_spectra.png  used on input line 171.
-(pdftex.def)             Requested size: 184.3758pt x 202.77454pt.
+<images/green_oled_band_diagram.png, id=414, 587.2339pt x 360.4667pt>
+File: images/green_oled_band_diagram.png Graphic file (type png)
+<use images/green_oled_band_diagram.png>
+Package pdftex.def Info: images/green_oled_band_diagram.png  used on input line
+ 168.
+(pdftex.def)             Requested size: 153.64493pt x 94.31316pt.
+<images/mode_schematic.png, id=415, 1788.6825pt x 991.705pt>
+File: images/mode_schematic.png Graphic file (type png)
+<use images/mode_schematic.png>
+Package pdftex.def Info: images/mode_schematic.png  used on input line 168.
+(pdftex.def)             Requested size: 153.64493pt x 85.17903pt.
  [12
 
- <./images/n1_peak_emission.png> <./images/n1_spectra.png>]
-<images/n1_quality_factor.png, id=439, 180.675pt x 177.0615pt>
-File: images/n1_quality_factor.png Graphic file (type png)
-<use images/n1_quality_factor.png>
-Package pdftex.def Info: images/n1_quality_factor.png  used on input line 187.
-(pdftex.def)             Requested size: 122.91406pt x 120.45694pt.
+ <./images/green_oled_band_diagram.png> <./images/mode_schematic.png>]
+<images/n1_peak_emission.png, id=444, 174.8934pt x 179.9523pt>
+File: images/n1_peak_emission.png Graphic file (type png)
+<use images/n1_peak_emission.png>
+Package pdftex.def Info: images/n1_peak_emission.png  used on input line 187.
+(pdftex.def)             Requested size: 122.91406pt x 126.47096pt.
+<images/n1_spectra.png, id=445, 354.8457pt x 390.258pt>
 File: images/n1_spectra.png Graphic file (type png)
 <use images/n1_spectra.png>
 Package pdftex.def Info: images/n1_spectra.png  used on input line 187.
 (pdftex.def)             Requested size: 184.3758pt x 202.77454pt.
  [13
 
+ <./images/n1_peak_emission.png> <./images/n1_spectra.png>]
+<images/n1_quality_factor.png, id=474, 180.675pt x 177.0615pt>
+File: images/n1_quality_factor.png Graphic file (type png)
+<use images/n1_quality_factor.png>
+Package pdftex.def Info: images/n1_quality_factor.png  used on input line 203.
+(pdftex.def)             Requested size: 122.91406pt x 120.45694pt.
+File: images/n1_spectra.png Graphic file (type png)
+<use images/n1_spectra.png>
+Package pdftex.def Info: images/n1_spectra.png  used on input line 203.
+(pdftex.def)             Requested size: 184.3758pt x 202.77454pt.
+
+[14
+
  <./images/n1_quality_factor.png>]
-<images/n1_ag_top_heatmap.png, id=467, 481.8pt x 481.8pt>
+<images/n1_ag_top_heatmap.png, id=502, 481.8pt x 481.8pt>
 File: images/n1_ag_top_heatmap.png Graphic file (type png)
 <use images/n1_ag_top_heatmap.png>
-Package pdftex.def Info: images/n1_ag_top_heatmap.png  used on input line 203.
+Package pdftex.def Info: images/n1_ag_top_heatmap.png  used on input line 224.
 (pdftex.def)             Requested size: 153.64493pt x 153.64247pt.
-<images/n1_al_top_heatmap.png, id=468, 481.8pt x 481.8pt>
+<images/n1_al_top_heatmap.png, id=503, 481.8pt x 481.8pt>
 File: images/n1_al_top_heatmap.png Graphic file (type png)
 <use images/n1_al_top_heatmap.png>
-Package pdftex.def Info: images/n1_al_top_heatmap.png  used on input line 203.
+Package pdftex.def Info: images/n1_al_top_heatmap.png  used on input line 224.
 (pdftex.def)             Requested size: 153.64493pt x 153.64247pt.
- [14
+ [15
 
  <./images/n1_ag_top_heatmap.png (PNG copy)> <./images/n1_al_top_heatmap.png (P
 NG copy)>]
-<images/n2_heatmap.png, id=494, 361.35pt x 361.35pt>
+<images/n2_heatmap.png, id=528, 361.35pt x 361.35pt>
 File: images/n2_heatmap.png Graphic file (type png)
 <use images/n2_heatmap.png>
-Package pdftex.def Info: images/n2_heatmap.png  used on input line 225.
+Package pdftex.def Info: images/n2_heatmap.png  used on input line 246.
 (pdftex.def)             Requested size: 107.55098pt x 107.5512pt.
-<images/n4_heatmap.png, id=495, 481.8pt x 481.8pt>
-File: images/n4_heatmap.png Graphic file (type png)
-<use images/n4_heatmap.png>
-Package pdftex.def Info: images/n4_heatmap.png  used on input line 225.
-(pdftex.def)             Requested size: 107.55098pt x 107.54752pt.
-<images/n3_heatmap.png, id=496, 481.8pt x 481.8pt>
+<images/n4_heatmap.pdf, id=529, 708.6475pt x 658.46pt>
+File: images/n4_heatmap.pdf Graphic file (type pdf)
+<use images/n4_heatmap.pdf>
+Package pdftex.def Info: images/n4_heatmap.pdf  used on input line 246.
+(pdftex.def)             Requested size: 107.55098pt x 99.93022pt.
+<images/n3_heatmap.png, id=530, 481.8pt x 481.8pt>
 File: images/n3_heatmap.png Graphic file (type png)
 <use images/n3_heatmap.png>
-Package pdftex.def Info: images/n3_heatmap.png  used on input line 225.
+Package pdftex.def Info: images/n3_heatmap.png  used on input line 246.
 (pdftex.def)             Requested size: 107.55098pt x 107.54752pt.
-<images/n5_heatmap.png, id=497, 481.8pt x 481.8pt>
+<images/n5_heatmap.png, id=531, 481.8pt x 481.8pt>
 File: images/n5_heatmap.png Graphic file (type png)
 <use images/n5_heatmap.png>
-Package pdftex.def Info: images/n5_heatmap.png  used on input line 225.
+Package pdftex.def Info: images/n5_heatmap.png  used on input line 246.
 (pdftex.def)             Requested size: 107.55098pt x 107.54752pt.
- [15
-
- <./images/n2_heatmap.png (PNG copy)> <./images/n4_heatmap.png (PNG copy)> <./i
-mages/n3_heatmap.png (PNG copy)> <./images/n5_heatmap.png (PNG copy)>]
-<images/n2_fe.png, id=522, 361.35pt x 216.81pt>
-File: images/n2_fe.png Graphic file (type png)
-<use images/n2_fe.png>
-Package pdftex.def Info: images/n2_fe.png  used on input line 245.
-(pdftex.def)             Requested size: 153.64493pt x 92.18768pt.
-<images/n4_fe.png, id=523, 481.8pt x 289.08pt>
-File: images/n4_fe.png Graphic file (type png)
-<use images/n4_fe.png>
-Package pdftex.def Info: images/n4_fe.png  used on input line 245.
-(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
-<images/n3_fe.png, id=524, 481.8pt x 289.08pt>
-File: images/n3_fe.png Graphic file (type png)
-<use images/n3_fe.png>
-Package pdftex.def Info: images/n3_fe.png  used on input line 245.
-(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
-<images/n5_fe.png, id=525, 481.8pt x 289.08pt>
-File: images/n5_fe.png Graphic file (type png)
-<use images/n5_fe.png>
-Package pdftex.def Info: images/n5_fe.png  used on input line 245.
-(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
  [16
 
- <./images/n2_fe.png (PNG copy)> <./images/n4_fe.png (PNG copy)> <./images/n3_f
-e.png (PNG copy)> <./images/n5_fe.png (PNG copy)>] (./defense.toc) [17
+ <./images/n2_heatmap.png (PNG copy)> <./images/n4_heatmap.pdf> <./images/n3_he
+atmap.png (PNG copy)> <./images/n5_heatmap.png (PNG copy)>]
+<images/n2_fe.png, id=566, 361.35pt x 216.81pt>
+File: images/n2_fe.png Graphic file (type png)
+<use images/n2_fe.png>
+Package pdftex.def Info: images/n2_fe.png  used on input line 266.
+(pdftex.def)             Requested size: 153.64493pt x 92.18768pt.
+<images/n4_fe.png, id=567, 481.8pt x 289.08pt>
+File: images/n4_fe.png Graphic file (type png)
+<use images/n4_fe.png>
+Package pdftex.def Info: images/n4_fe.png  used on input line 266.
+(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
+<images/n3_fe.png, id=568, 481.8pt x 289.08pt>
+File: images/n3_fe.png Graphic file (type png)
+<use images/n3_fe.png>
+Package pdftex.def Info: images/n3_fe.png  used on input line 266.
+(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
+<images/n5_fe.png, id=569, 481.8pt x 289.08pt>
+File: images/n5_fe.png Graphic file (type png)
+<use images/n5_fe.png>
+Package pdftex.def Info: images/n5_fe.png  used on input line 266.
+(pdftex.def)             Requested size: 153.64493pt x 92.18547pt.
+ [17
 
-] [18
+ <./images/n2_fe.png (PNG copy)> <./images/n4_fe.png (PNG copy)> <./images/n3_f
+e.png (PNG copy)> <./images/n5_fe.png (PNG copy)>] (./defense.toc) [18
+
+] [19
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 271.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 292.
 
-[19
-
-] [20
+[20
 
 ]
-<images/xkcd.png, id=682, 441.75038pt x 316.18124pt>
+<images/nrel_group_pic.jpg, id=702, 4047.12pt x 3035.34pt>
+File: images/nrel_group_pic.jpg Graphic file (type jpg)
+<use images/nrel_group_pic.jpg>
+Package pdftex.def Info: images/nrel_group_pic.jpg  used on input line 323.
+(pdftex.def)             Requested size: 122.91406pt x 92.16783pt.
+ [21
+
+ <./images/nrel_group_pic.jpg>]
+<images/xkcd.png, id=728, 441.75038pt x 316.18124pt>
 File: images/xkcd.png Graphic file (type png)
 <use images/xkcd.png>
-Package pdftex.def Info: images/xkcd.png  used on input line 306.
-(pdftex.def)             Requested size: 230.46739pt x 164.96036pt.
- [21
+Package pdftex.def Info: images/xkcd.png  used on input line 331.
+(pdftex.def)             Requested size: 199.73653pt x 142.96532pt.
+ [22
 
  <./images/xkcd.png>]
 \tf@nav=\write7
@@ -1420,41 +1460,42 @@ Package pdftex.def Info: images/xkcd.png  used on input line 306.
 \tf@snm=\write9
 \openout9 = `defense.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./defense.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
 Package rerunfilecheck Info: File `defense.out' has not changed.
-(rerunfilecheck)             Checksum: 627806109E443E8EA556740EA061D47A;722.
+(rerunfilecheck)             Checksum: FDFEFCC637A6FD995FD60FB2CEA6E839;722.
 Package logreq Info: Writing requests to 'defense.run.xml'.
 \openout1 = `defense.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33693 strings out of 492616
- 640697 string characters out of 6135177
- 1053302 words of memory out of 5000000
- 37052 multiletter control sequences out of 15000+600000
- 543996 words of font info for 66 fonts, out of 8000000 for 9000
+ 33729 strings out of 492616
+ 641547 string characters out of 6135177
+ 1053436 words of memory out of 5000000
+ 37079 multiletter control sequences out of 15000+600000
+ 544302 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,74p,897b,1345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,74p,897b,1344s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-i8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on defense.pdf (21 pages, 2552153 bytes).
+dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb>
+Output written on defense.pdf (22 pages, 27177076 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
- 689 compressed objects within 7 object streams
- 60 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 725 compressed objects within 8 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

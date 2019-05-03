@@ -18,6 +18,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {3}{1}{Single Cavity Devices}{12}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Multi-cavity Devices}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Multi Cavity Devices}{16}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Conclusions}{17}{0}{4}
+\beamer@sectionintoc {4}{Conclusions}{18}{0}{4}

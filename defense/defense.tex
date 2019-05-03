@@ -1,7 +1,7 @@
 \documentclass{beamer}
 \author{\textbf{Benjamin Isenhart}\inst{1},Ekraj Dahal\inst{2}, Karen Cianciulli\inst{3}, Matthew S. White\inst{1}\inst{2}}
 \institute[UVM]{\inst{1} Department of Physics, The University of Vermont, Burlington VT\\
-\inst{2} Materials Science Pgrogram, The University of Vermont, Burlington VT\\
+\inst{2} Materials Science Program, The University of Vermont, Burlington VT\\
 \inst{3} Asheville School, Asheville NC}
 \title{Precise Control of Organic LED Emission Through Optically-Resonant Microcavity Confinement}
 \date{May 2, 2019}
@@ -22,6 +22,7 @@
 
 \begin{frame}
     \titlepage
+    \includegraphics[height=1cm]{images/uvm_logo.png}
 \end{frame}
 \begin{frame}
     \tableofcontents
@@ -40,7 +41,7 @@
 						\vspace{0.5cm}
 						\item Use of TCO to maximize photon outcoupling
 						\vspace{0.5cm}
-						\item Color determined only by the material in the emissive layer
+						\item Color determined primarily by the material in the emissive layer
 					\end{itemize}
 
 				\end{column}
@@ -121,7 +122,8 @@
 		\begin{frame}
 			\frametitle{Device Fabrication}
 			\centering
-			\includegraphics[width=\textwidth]{images/microcavity_band_diagram.png}
+			\includegraphics[width=0.65\textwidth]{images/microcavity_band_diagram.png}
+			\includegraphics[width=0.3\textwidth]{images/evaporator.jpg}
 			\vspace{0.5cm}
 			\begin{columns}
 				\begin{column}{0.3\textwidth}
@@ -145,12 +147,26 @@
     \subsection{Angle-Resolved Electroluminescence Spectroscopy}
 		\begin{frame}
 			\frametitle{Angle-Resolved Electroluminescence Spectroscopy (ARES)}
+			\centering
+			\includegraphics[width=0.75\textwidth]{images/ares.png}
 		\end{frame}
     
 \section{Results}
     \frame{\tableofcontents[currentsection]}
     
     \subsection{Single Cavity Devices}
+		\begin{frame}
+			\frametitle{Single Cavity Devices}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+					\includegraphics[width=\textwidth]{images/green_oled_band_diagram.png}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\includegraphics[width=\textwidth]{images/mode_schematic.png}
+				\end{column}
+			\end{columns}
+		\end{frame}
+
         
         \begin{frame}
             \frametitle{Peak Emission Wavelength}
@@ -187,32 +203,37 @@
         \end{frame}
         
         \begin{frame}
-            \frametitle{Effect of Bottom Electrode Material}
+            \frametitle{Impact of Electrode Geometry}
+            \centering
+            106 nm cavities
+			\vspace{0.5cm}
             \begin{columns}
 				\begin{column}{0.5\textwidth}
 					\centering
+					30nm Ag top electrode
 					\includegraphics[width=\textwidth]{images/n1_ag_top_heatmap.png}
-					Aluminum bottom electrode
+					100 nm Al bottom electrode
 				\end{column}
 				\begin{column}{0.5\textwidth}
 					\centering
+					30nm Al top electrode
 					\includegraphics[width=\textwidth]{images/n1_al_top_heatmap.png}
-					Silver bottom electrode
+					100 nm Ag bottom electrode
 				\end{column}
             \end{columns}
         \end{frame}
         
-    \subsection{Multi-cavity Devices}
+    \subsection{Multi Cavity Devices}
         
         \begin{frame}
-            \frametitle{Behavior at Large Angles}
+            \frametitle{Multi Cavity Devices}
             \begin{columns}
 				\begin{column}{0.5\textwidth}
 					\centering
 					N=2 cavities\\
 					\includegraphics[width=0.7\textwidth]{images/n2_heatmap.png}\\
 					N=4 cavities\\
-					\includegraphics[width=0.7\textwidth]{images/n4_heatmap.png}
+					\includegraphics[width=0.7\textwidth]{images/n4_heatmap.pdf}
 				\end{column}
 				\begin{column}{0.5\textwidth}
 					\centering
@@ -275,8 +296,11 @@
         \begin{columns}
 			\begin{column}{0.4\textwidth}
 				\begin{itemize}
-					\item Lab Group
+					\item Optoelectronic Device Lab Group
 				\end{itemize}
+				\vspace{1cm}
+				\centering
+				\includegraphics[width=\textwidth]{images/nrel_group_pic.jpg}
 			\end{column}
 			\begin{column}{0.6\textwidth}
 				\begin{itemize}
@@ -301,8 +325,9 @@
     \begin{frame}
         \frametitle{Questions?}
         \centering
-        \includegraphics[width=0.75\textwidth]{images/xkcd.png}\\
-        \tiny https://xkcd.com/1403/
+        \includegraphics[width=0.65\textwidth]{images/xkcd.png}\\
+        \tiny https://xkcd.com/1403/\\
+        \Huge Thank you for your attention!
     \end{frame}
     
 \end{document}
