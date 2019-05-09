@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.29)  9 MAY 2019 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.29)  9 MAY 2019 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,11 +866,11 @@ File: images/n3_heatmap.png Graphic file (type png)
 <use images/n3_heatmap.png>
 Package pdftex.def Info: images/n3_heatmap.png  used on input line 229.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<images/n4_heatmap.png, id=71, 481.8pt x 481.8pt>
-File: images/n4_heatmap.png Graphic file (type png)
-<use images/n4_heatmap.png>
-Package pdftex.def Info: images/n4_heatmap.png  used on input line 232.
-(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
+<images/n4_heatmap.pdf, id=71, 708.6475pt x 658.46pt>
+File: images/n4_heatmap.pdf Graphic file (type pdf)
+<use images/n4_heatmap.pdf>
+Package pdftex.def Info: images/n4_heatmap.pdf  used on input line 232.
+(pdftex.def)             Requested size: 192.0548pt x 178.44969pt.
 <images/n5_heatmap.png, id=72, 481.8pt x 481.8pt>
 File: images/n5_heatmap.png Graphic file (type png)
 <use images/n5_heatmap.png>
@@ -901,9 +901,9 @@ File: images/n5_fe.png Graphic file (type png)
 Package pdftex.def Info: images/n5_fe.png  used on input line 255.
 (pdftex.def)             Requested size: 192.0548pt x 115.23296pt.
 [12] [13 <./images/n2_heatmap.png (PNG copy)> <./images/n3_heatmap.png (PNG cop
-y)> <./images/n4_heatmap.png (PNG copy)> <./images/n5_heatmap.png (PNG copy)>]
-[14 <./images/n2_fe.png (PNG copy)> <./images/n3_fe.png (PNG copy)> <./images/n
-4_fe.png (PNG copy)> <./images/n5_fe.png (PNG copy)>]
+y)> <./images/n4_heatmap.pdf> <./images/n5_heatmap.png (PNG copy)>] [14 <./imag
+es/n2_fe.png (PNG copy)> <./images/n3_fe.png (PNG copy)> <./images/n4_fe.png (P
+NG copy)> <./images/n5_fe.png (PNG copy)>]
 Chapter 4.
 [15
 
@@ -931,13 +931,13 @@ ing diodes us-ing an ul-tra-thin hole-injection
 
 [17]
 Appendix A.
-<images/n1_al_top_waterfall.png, id=99, 429.605pt x 244.915pt>
+<images/n1_al_top_waterfall.png, id=109, 429.605pt x 244.915pt>
 File: images/n1_al_top_waterfall.png Graphic file (type png)
 <use images/n1_al_top_waterfall.png>
 Package pdftex.def Info: images/n1_al_top_waterfall.png  used on input line 304
 .
 (pdftex.def)             Requested size: 405.45045pt x 231.14691pt.
-<images/n1_ag_top_waterfall.png, id=100, 429.605pt x 234.8775pt>
+<images/n1_ag_top_waterfall.png, id=110, 429.605pt x 234.8775pt>
 File: images/n1_ag_top_waterfall.png Graphic file (type png)
 <use images/n1_ag_top_waterfall.png>
 Package pdftex.def Info: images/n1_ag_top_waterfall.png  used on input line 309
@@ -946,23 +946,23 @@ Package pdftex.def Info: images/n1_ag_top_waterfall.png  used on input line 309
 [18
 
  <./images/n1_al_top_waterfall.png>]
-<images/n2_waterfall.png, id=106, 327.68517pt x 166.4892pt>
+<images/n2_waterfall.png, id=116, 327.68517pt x 166.4892pt>
 File: images/n2_waterfall.png Graphic file (type png)
 <use images/n2_waterfall.png>
 Package pdftex.def Info: images/n2_waterfall.png  used on input line 314.
 (pdftex.def)             Requested size: 405.45045pt x 206.01514pt.
-<images/n3_waterfall.png, id=107, 416.55624pt x 233.87375pt>
+<images/n3_waterfall.png, id=117, 416.55624pt x 233.87375pt>
 File: images/n3_waterfall.png Graphic file (type png)
 <use images/n3_waterfall.png>
 Package pdftex.def Info: images/n3_waterfall.png  used on input line 319.
 (pdftex.def)             Requested size: 405.45045pt x 227.64948pt.
  [19 <./images/n1_ag_top_waterfall.png> <./images/n2_waterfall.png>]
-<images/n4_waterfall.png, id=113, 415.5525pt x 236.885pt>
+<images/n4_waterfall.png, id=123, 415.5525pt x 236.885pt>
 File: images/n4_waterfall.png Graphic file (type png)
 <use images/n4_waterfall.png>
 Package pdftex.def Info: images/n4_waterfall.png  used on input line 324.
 (pdftex.def)             Requested size: 405.45045pt x 231.13724pt.
-<images/n5_waterfall.png, id=114, 416.55624pt x 242.9075pt>
+<images/n5_waterfall.png, id=124, 416.55624pt x 242.9075pt>
 File: images/n5_waterfall.png Graphic file (type png)
 <use images/n5_waterfall.png>
 Package pdftex.def Info: images/n5_waterfall.png  used on input line 329.
@@ -975,7 +975,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  19787 strings out of 492616
- 360054 string characters out of 6135177
+ 360078 string characters out of 6135177
  765117 words of memory out of 5000000
  23537 multiletter control sequences out of 15000+600000
  541037 words of font info for 57 fonts, out of 8000000 for 9000
@@ -995,10 +995,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on thesis.pdf (22 pages, 1522944 bytes).
+Output written on thesis.pdf (22 pages, 1798239 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 186 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
